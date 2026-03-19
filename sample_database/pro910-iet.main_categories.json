@@ -1,0 +1,5947 @@
+[{
+  "_id": {
+    "$oid": "649d7289734c935fce938ee4"
+  },
+  "name": "Maintenance Of Priest & Preachers",
+  "subcategory1": [
+    {
+      "name": "Support",
+      "subcategory2": [
+        {
+          "name": "Worker",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the support of (No: of workers) of (Division Name) for the month of (mon, year)",
+              "_id": {
+                "$oid": "649d7289734c935fce938ee7"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938ee6"
+          }
+        },
+        {
+          "name": "Office Assistant",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the support of office assistant Mr/Ms/Mrs (Name) of (Division) for the month of (mon,year)",
+              "_id": {
+                "$oid": "649d7289734c935fce938ee9"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938ee8"
+          }
+        },
+        {
+          "name": "Prayer Group Staff",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the support of Mr/Ms/Mrs (Name) (Prayer group) for the month of (mon,year)",
+              "_id": {
+                "$oid": "649d7289734c935fce938eeb"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938eea"
+          }
+        },
+        {
+          "name": "Promotional Office Staff ",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of Promotional Office Staff Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649d7289734c935fce938eed"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938eec"
+          }
+        },
+        {
+          "name": "Youth Minister",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of Youth Minister Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649d7289734c935fce938eef"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938eee"
+          }
+        },
+        {
+          "name": "Children Minister",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of Childrens Minister Staff Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649d7289734c935fce938ef1"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938ef0"
+          }
+        },
+        {
+          "name": "Co-ordinator",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of Co-ordinator Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649d7289734c935fce938ef3"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938ef2"
+          }
+        },
+        {
+          "name": "Special Support",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Special Support of <DESIGNATION> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649d7289734c935fce938ef5"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938ef4"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649d7289734c935fce938ee5"
+      }
+    },
+    {
+      "name": "Allowance",
+      "subcategory2": [
+        {
+          "name": "Trasfer Allowance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Newstation Allowance to Mr/Ms/Mrs<name of beneficiary> for the expense of transportation from (from place to place to)",
+              "_id": {
+                "$oid": "649d7289734c935fce938ef8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938ef7"
+          }
+        },
+        {
+          "name": "New Station Allowance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Transfer Allowance to Mr/Ms/Mrs <Name of beneficiary>  for the expense of transportation from (from place to place to)",
+              "_id": {
+                "$oid": "649d7289734c935fce938efa"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938ef9"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649d7289734c935fce938ef6"
+      }
+    },
+    {
+      "name": "Expense",
+      "subcategory2": [
+        {
+          "name": "Vehicle Running Exps.",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Expense for vehicle repair and maintenance charges (Vehicles reg: no:)",
+              "_id": {
+                "$oid": "649d7289734c935fce938efd"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938efc"
+          }
+        },
+        {
+          "name": "Vehicle Repairs",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for <Expense Name> for Mr.(Name Of Worker)",
+              "_id": {
+                "$oid": "649d7289734c935fce938eff"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938efe"
+          }
+        },
+        {
+          "name": "TA/DA for Mission Trip",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for <Expense Name> for Mr.(Name Of Worker)",
+              "_id": {
+                "$oid": "649d7289734c935fce938f01"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f00"
+          }
+        },
+        {
+          "name": "TA/DA for Field Visit",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for <Expense Name> for Mr.(Name Of Worker)",
+              "_id": {
+                "$oid": "649d7289734c935fce938f03"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f02"
+          }
+        },
+        {
+          "name": "TA/DA for Native place",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for <Expense Name> for Mr.(Name Of Worker)",
+              "_id": {
+                "$oid": "649d7289734c935fce938f05"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f04"
+          }
+        },
+        {
+          "name": "Travelling Expenses ( Train/flight )",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for <Expense Name> for Mr.(Name Of Worker) in <Train/Flight>",
+              "_id": {
+                "$oid": "649d7289734c935fce938f07"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f06"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649d7289734c935fce938efb"
+      }
+    },
+    {
+      "name": "Medical Insurance (MUTT)",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": " Narration: Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649d7289734c935fce938f0a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f09"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649d7289734c935fce938f08"
+      }
+    },
+    {
+      "name": "Welfare Help",
+      "subcategory2": [
+        {
+          "name": "Widow care",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the special welfare for (name of ceremony) of (benefeciary name) in (division).",
+              "_id": {
+                "$oid": "649d7289734c935fce938f0d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f0c"
+          }
+        },
+        {
+          "name": "Ceremonical Services",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649d7289734c935fce938f0f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f0e"
+          }
+        },
+        {
+          "name": "Motor Bike",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of Motor Bike to Mr. (Name of worker) for the (purpose) at (division).",
+              "_id": {
+                "$oid": "649d7289734c935fce938f11"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f10"
+          }
+        },
+        {
+          "name": "Fan",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of ceiling fan to Mr. (Name of worker) who does not have ceiling fan in his residence",
+              "_id": {
+                "$oid": "649d7289734c935fce938f13"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f12"
+          }
+        },
+        {
+          "name": "Bicycle",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of Bicycle to Mr. (Name of worker) for the (purpose) at (division).",
+              "_id": {
+                "$oid": "649d7289734c935fce938f15"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f14"
+          }
+        },
+        {
+          "name": "Four Wheeler",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of (name of four wheeler) to Mr. (Name of worker) for the (purpose) at (division).",
+              "_id": {
+                "$oid": "649d7289734c935fce938f17"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f16"
+          }
+        },
+        {
+          "name": "Winter Clothes",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of purchasing (Name of winter cloth) for (benefeciary name/no: of group), (division), (@price of one).",
+              "_id": {
+                "$oid": "649d7289734c935fce938f19"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f18"
+          }
+        },
+        {
+          "name": "UPS/Inverter",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of 1 UPS/Inverter for (purpose) in (division)",
+              "_id": {
+                "$oid": "649d7289734c935fce938f1b"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f1a"
+          }
+        },
+        {
+          "name": "Computer or Laptop",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase 1 computer/laptop for (purpose) in (division)",
+              "_id": {
+                "$oid": "649d7289734c935fce938f1d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f1c"
+          }
+        },
+        {
+          "name": "Mobile or Tablet",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of a new (Mobile/tablet) for Mr/Mrs/Ms (name)",
+              "_id": {
+                "$oid": "649d7289734c935fce938f1f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f1e"
+          }
+        },
+        {
+          "name": "Medical Help",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the medical help of (Benefeciary name) in (division).",
+              "_id": {
+                "$oid": "649d7289734c935fce938f21"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f20"
+          }
+        },
+        {
+          "name": "Electrical/ Electronic Item",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase  (item name) for (purpose) in (division)",
+              "_id": {
+                "$oid": "649d7289734c935fce938f23"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649d7289734c935fce938f22"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649d7289734c935fce938f0b"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649e7bad734c935fce9390c9"
+  },
+  "name": "Establishment Expenses",
+  "subcategory1": [
+    {
+      "name": "Staff Expenses",
+      "subcategory2": [
+        {
+          "name": "Head Office Staff",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of <STAFF EXPENSE NAME> for the month of <Month,Year>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390cc"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390cb"
+          }
+        },
+        {
+          "name": "Salary & Other Allowances",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of <STAFF EXPENSE NAME> for the month of <Month,Year>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390ce"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390cd"
+          }
+        },
+        {
+          "name": "Leave Encashment",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of <STAFF EXPENSE NAME> for the month of <Month,Year>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390d0"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390cf"
+          }
+        },
+        {
+          "name": "Employee PF",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of <STAFF EXPENSE NAME> for the month of <Month,Year>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390d2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390d1"
+          }
+        },
+        {
+          "name": "Staff Welfare",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of <STAFF EXPENSE NAME> for the month of <Month,Year>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390d4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390d3"
+          }
+        },
+        {
+          "name": "Mission Trip Expenses",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of <STAFF EXPENSE NAME> for the month of <Month,Year>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390d6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390d5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649e7bad734c935fce9390ca"
+      }
+    },
+    {
+      "name": "Office Expense & Supplies",
+      "subcategory2": [
+        {
+          "name": "Fee",
+          "subcategory3": [
+            {
+              "name": "CIT Appeals",
+              "narration": "Towards the expense of fee <FEE NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390d9"
+              }
+            },
+            {
+              "name": "TDS Late Fee",
+              "narration": "Towards the expense of fee <FEE NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390da"
+              }
+            },
+            {
+              "name": "PF Late Fee",
+              "narration": "Towards the expense of fee <FEE NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390db"
+              }
+            },
+            {
+              "name": "Visa fee",
+              "narration": "Towards the expense of fee <FEE NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390dc"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390d8"
+          }
+        },
+        {
+          "name": "Gardening Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390de"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390dd"
+          }
+        },
+        {
+          "name": "News paper & Periodicals",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390e0"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390df"
+          }
+        },
+        {
+          "name": "Office Stationeries/office exps./postage",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390e2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390e1"
+          }
+        },
+        {
+          "name": "Photocopy Charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390e4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390e3"
+          }
+        },
+        {
+          "name": "Computer & Peripherals Repair",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390e6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390e5"
+          }
+        },
+        {
+          "name": "Electrical Repair",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390e8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390e7"
+          }
+        },
+        {
+          "name": "Office Equipment Repairs",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390ea"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390e9"
+          }
+        },
+        {
+          "name": "Office Furniture Repairs",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390ec"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390eb"
+          }
+        },
+        {
+          "name": "Repairs & Maintenance Building",
+          "subcategory3": [
+            {
+              "name": "Guest House Repair",
+              "narration": "Towards the expense for (item name) repair and maintenance charges",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390ee"
+              }
+            },
+            {
+              "name": "Office Repairs",
+              "narration": "Towards the expense for (item name) repair and maintenance charges",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390ef"
+              }
+            },
+            {
+              "name": "Staff quarter Repairs",
+              "narration": "Towards the expense for (item name) repair and maintenance charges",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390f0"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390ed"
+          }
+        },
+        {
+          "name": "Repairs & Maintenance Others",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390f2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390f1"
+          }
+        },
+        {
+          "name": "Bulk Mail sending charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390f4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390f3"
+          }
+        },
+        {
+          "name": "Cartridge Refilling charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390f6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390f5"
+          }
+        },
+        {
+          "name": "Conveyance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390f8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390f7"
+          }
+        },
+        {
+          "name": "Credit card charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390fa"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390f9"
+          }
+        },
+        {
+          "name": "EBS Transaction charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390fc"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390fb"
+          }
+        },
+        {
+          "name": "Electricity Charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for stationary/postage charges.",
+              "_id": {
+                "$oid": "649e7bad734c935fce9390fe"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390fd"
+          }
+        },
+        {
+          "name": "General & Misc Expenses",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the (item name) charges for the month of (mon, year)",
+              "_id": {
+                "$oid": "649e7bad734c935fce939100"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce9390ff"
+          }
+        },
+        {
+          "name": "Generator Running",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the (item name) charges for the month of (mon, year)",
+              "_id": {
+                "$oid": "649e7bad734c935fce939102"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939101"
+          }
+        },
+        {
+          "name": "Generator Repair",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the (item name) charges for the month of (mon, year)",
+              "_id": {
+                "$oid": "649e7bad734c935fce939104"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939103"
+          }
+        },
+        {
+          "name": "Gift & Entertainment",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the (item name) charges for the month of (mon, year)",
+              "_id": {
+                "$oid": "649e7bad734c935fce939106"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939105"
+          }
+        },
+        {
+          "name": "Honorarium",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for Honorarium to Mr/Mrs/Ms (Name)",
+              "_id": {
+                "$oid": "649e7bad734c935fce939108"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939107"
+          }
+        },
+        {
+          "name": "Hospitality",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93910a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939109"
+          }
+        },
+        {
+          "name": "Internet connection & Data Recharge",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93910c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93910b"
+          }
+        },
+        {
+          "name": "Membership Fees",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93910e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93910d"
+          }
+        },
+        {
+          "name": "Professional charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939110"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93910f"
+          }
+        },
+        {
+          "name": "Renewal ",
+          "subcategory3": [
+            {
+              "name": "Google Drive",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939112"
+              }
+            },
+            {
+              "name": "Website & Subscription",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939113"
+              }
+            },
+            {
+              "name": "FCRA Renewal",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939114"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939111"
+          }
+        },
+        {
+          "name": "Rent,Rates & Taxes",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce939116"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939115"
+          }
+        },
+        {
+          "name": "Software for office",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce939118"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939117"
+          }
+        },
+        {
+          "name": "Safe Locker charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce93911a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939119"
+          }
+        },
+        {
+          "name": "Telephone charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce93911c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93911b"
+          }
+        },
+        {
+          "name": "Transportation charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce93911e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93911d"
+          }
+        },
+        {
+          "name": "Travelling Expenses",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce939120"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93911f"
+          }
+        },
+        {
+          "name": "Vehicle Insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce939122"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939121"
+          }
+        },
+        {
+          "name": "Vehicle Repair & Running",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce939124"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939123"
+          }
+        },
+        {
+          "name": "MUT Remittance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce939126"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939125"
+          }
+        },
+        {
+          "name": "Wages",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce939128"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939127"
+          }
+        },
+        {
+          "name": "Water Charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of Vehicle insurance renewal charges of (vehicle name) for the period of D/M/Y TO D/M/Y (Reg no:).",
+              "_id": {
+                "$oid": "649e7bad734c935fce93912a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939129"
+          }
+        },
+        {
+          "name": "Annual Maintenance Charge (AMC)",
+          "subcategory3": [
+            {
+              "name": "Punching machine",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93912c"
+              }
+            },
+            {
+              "name": "Fire entigusher",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93912d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93912b"
+          }
+        },
+        {
+          "name": "Construction of office building",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93912f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93912e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649e7bad734c935fce9390d7"
+      }
+    },
+    {
+      "name": "Assets",
+      "subcategory2": [
+        {
+          "name": "Airpurifier",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939132"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939131"
+          }
+        },
+        {
+          "name": "CCTV Camera",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939134"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939133"
+          }
+        },
+        {
+          "name": "Generator",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939136"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939135"
+          }
+        },
+        {
+          "name": "Water Pump",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939138"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939137"
+          }
+        },
+        {
+          "name": "PA/Sound system",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93913a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939139"
+          }
+        },
+        {
+          "name": "Furniture",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93913c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93913b"
+          }
+        },
+        {
+          "name": "Computer/Laptop",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93913e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93913d"
+          }
+        },
+        {
+          "name": "Printer & other accessories",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939140"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93913f"
+          }
+        },
+        {
+          "name": "Mobile Phone / Tablet",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939142"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939141"
+          }
+        },
+        {
+          "name": "PA System",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939144"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939143"
+          }
+        },
+        {
+          "name": "LCD Projector",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939146"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939145"
+          }
+        },
+        {
+          "name": "UPS/Inverter",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939148"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939147"
+          }
+        },
+        {
+          "name": "Electrical Item",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93914a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939149"
+          }
+        },
+        {
+          "name": "Water Purifier",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93914c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93914b"
+          }
+        },
+        {
+          "name": "Electronic Equipement",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce93914e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93914d"
+          }
+        },
+        {
+          "name": "Electric Bicycle",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939150"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce93914f"
+          }
+        },
+        {
+          "name": "Motor Bike",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939152"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939151"
+          }
+        },
+        {
+          "name": "Four Wheeler",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939154"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939153"
+          }
+        },
+        {
+          "name": "Office Equipment",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) at <DIVISION NAME>",
+              "_id": {
+                "$oid": "649e7bad734c935fce939156"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "649e7bad734c935fce939155"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "649e7bad734c935fce939130"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a11c52ae0b677fe0da77bf"
+  },
+  "name": "Education for Priest & Preachers",
+  "subcategory1": [
+    {
+      "name": "Bible School & Collage",
+      "subcategory2": [
+        {
+          "name": "Wages",
+          "subcategory3": [
+            {
+              "name": "Cook",
+              "narration": "Towards the wages/stipend to Ms/Mr/Mrs <NAME> the <MENTION DESIGNATION>for the month",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77c2"
+              }
+            },
+            {
+              "name": "Peon",
+              "narration": "Towards the wages/stipend to Ms/Mr/Mrs <NAME> the <MENTION DESIGNATION>for the month",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77c3"
+              }
+            },
+            {
+              "name": "Guard",
+              "narration": "Towards the wages/stipend to Ms/Mr/Mrs <NAME> the <MENTION DESIGNATION>for the month",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77c4"
+              }
+            },
+            {
+              "name": "Helper",
+              "narration": "Towards the wages/stipend to Ms/Mr/Mrs <NAME> the <MENTION DESIGNATION>for the month",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77c5"
+              }
+            },
+            {
+              "name": "Aaya",
+              "narration": "Towards the wages/stipend to Ms/Mr/Mrs <NAME> the <MENTION DESIGNATION>for the month",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77c6"
+              }
+            },
+            {
+              "name": "Gardener",
+              "narration": "Towards the wages/stipend to Ms/Mr/Mrs <NAME> the <MENTION DESIGNATION>for the month",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77c7"
+              }
+            },
+            {
+              "name": "Warden",
+              "narration": "Towards the wages/stipend to Ms/Mr/Mrs <NAME> the <MENTION DESIGNATION>for the month",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77c8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77c1"
+          }
+        },
+        {
+          "name": "Salary",
+          "subcategory3": [
+            {
+              "name": "Director",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year).",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ca"
+              }
+            },
+            {
+              "name": "Accountant",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77cb"
+              }
+            },
+            {
+              "name": "Principal",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77cc"
+              }
+            },
+            {
+              "name": "Vice Principal",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77cd"
+              }
+            },
+            {
+              "name": "Non-Teaching Staff (Art,Music,PT)",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ce"
+              }
+            },
+            {
+              "name": "Teacher",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77cf"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77c9"
+          }
+        },
+        {
+          "name": "Preachers Education Expense",
+          "subcategory3": [
+            {
+              "name": "Food Expense",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d1"
+              }
+            },
+            {
+              "name": "Fees",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77d0"
+          }
+        },
+        {
+          "name": "Construction",
+          "subcategory3": [
+            {
+              "name": "Borewell",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d4"
+              }
+            },
+            {
+              "name": "Boundarywall",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d5"
+              }
+            },
+            {
+              "name": "Chapel",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d6"
+              }
+            },
+            {
+              "name": "Staff Quarter",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d7"
+              }
+            },
+            {
+              "name": "Class Room",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d8"
+              }
+            },
+            {
+              "name": "Hostel",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77d9"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77d3"
+          }
+        },
+        {
+          "name": "Repair & Maintenace",
+          "subcategory3": [
+            {
+              "name": "Generator",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77db"
+              }
+            },
+            {
+              "name": "Vehicle",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77dc"
+              }
+            },
+            {
+              "name": "Building",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77dd"
+              }
+            },
+            {
+              "name": "Office Equipment",
+              "narration": "Towards the expense of higher education studies <COURSE NAME> Mr/Mrs/Ms <NAME> (s/o/d/o/w/o),(pastors name) for (purpose) for the (academic year)",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77de"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77da"
+          }
+        },
+        {
+          "name": "Purchase of Movable Assets",
+          "subcategory3": [
+            {
+              "name": "Furniture",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) for Bile School <Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e0"
+              }
+            },
+            {
+              "name": "Computer",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) for Bile School <Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e1"
+              }
+            },
+            {
+              "name": "Laptop",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) for Bile School <Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e2"
+              }
+            },
+            {
+              "name": "CCTV",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) for Bile School <Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e3"
+              }
+            },
+            {
+              "name": "Water Pump",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) for Bile School <Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e4"
+              }
+            },
+            {
+              "name": "PA System",
+              "narration": "Towards the purchase of <ITEM NAME><BRAND NAME> for (PURPOSE) for Bile School <Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e5"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77df"
+          }
+        },
+        {
+          "name": "Office Expense",
+          "subcategory3": [
+            {
+              "name": "Furniture & Fittings",
+              "narration": "Towards the expense for <ITEM NAME> for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e7"
+              }
+            },
+            {
+              "name": "Postage /Courier",
+              "narration": "Towards the expense for <ITEM NAME> for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e8"
+              }
+            },
+            {
+              "name": "Photocopy/Printing Charge",
+              "narration": "Towards the expense for <ITEM NAME> for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77e9"
+              }
+            },
+            {
+              "name": "Books & Literature",
+              "narration": "Towards the expense for <ITEM NAME> for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ea"
+              }
+            },
+            {
+              "name": "Honorarium",
+              "narration": "Towards the expense for <ITEM NAME> for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77eb"
+              }
+            },
+            {
+              "name": "Hospitality",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ec"
+              }
+            },
+            {
+              "name": "Vehicle/ Generator Fuel Expenses,",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ed"
+              }
+            },
+            {
+              "name": "Office Stationeries",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ee"
+              }
+            },
+            {
+              "name": "Electricity Charges",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ef"
+              }
+            },
+            {
+              "name": "Water Charges",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77f0"
+              }
+            },
+            {
+              "name": "Printing charges",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77f1"
+              }
+            },
+            {
+              "name": "Transalation Charges",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77f2"
+              }
+            },
+            {
+              "name": "Travelling Expense",
+              "narration": "Towards the expense for <Sub-Category Name>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77f3"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77e6"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a11c52ae0b677fe0da77c0"
+      }
+    },
+    {
+      "name": "Education & Training For Field Pastor",
+      "subcategory2": [
+        {
+          "name": "Preachers Education Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77f6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77f5"
+          }
+        },
+        {
+          "name": "Seminar & Conference",
+          "subcategory3": [
+            {
+              "name": "National Leaders family seminar",
+              "narration": "Towards the conducting <PROGRAM NAME> for <NO.OF DAYS> at <PLACE>.",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77f8"
+              }
+            },
+            {
+              "name": "Leaders Conference",
+              "narration": "Towards the conducting <PROGRAM NAME> for <NO.OF DAYS> at <PLACE>.",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77f9"
+              }
+            },
+            {
+              "name": "Divisional Leaders Family Seminar",
+              "narration": "Towards the conducting <PROGRAM NAME> for <NO.OF DAYS> at <PLACE>.",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77fa"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77f7"
+          }
+        },
+        {
+          "name": "Training & Development",
+          "subcategory3": [
+            {
+              "name": "Leaders Meeting",
+              "narration": "Towards the conducting <PROGRAM NAME> for <NO.OF DAYS> at <PLACE>.",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77fc"
+              }
+            },
+            {
+              "name": "National Leaders Meeting",
+              "narration": "Towards the conducting <PROGRAM NAME> for <NO.OF DAYS> at <PLACE>.",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77fd"
+              }
+            },
+            {
+              "name": "Field Pastor Training",
+              "narration": "Towards the conducting <PROGRAM NAME> for <NO.OF DAYS> at <PLACE>.",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77fe"
+              }
+            },
+            {
+              "name": "Summer Ministry",
+              "narration": "Towards the conducting <PROGRAM NAME> for <NO.OF DAYS> at <PLACE>.",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da77ff"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da77fb"
+          }
+        },
+        {
+          "name": "Honorarium",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da7801"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da7800"
+          }
+        },
+        {
+          "name": "Hospitality",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a11c52ae0b677fe0da7803"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a11c52ae0b677fe0da7802"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a11c52ae0b677fe0da77f4"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a1b5faae0b677fe0da79ae"
+  },
+  "name": "WELFARE OF CHILDREN",
+  "subcategory1": [
+    {
+      "name": "Banarasi Ashram Boys Home,Chitrakonda",
+      "subcategory2": [
+        {
+          "name": "Food Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the payment of food expense for (no:of children) of (name of childrens home) at (place) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79b1"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79b0"
+          }
+        },
+        {
+          "name": "Wages for children Home staff",
+          "subcategory3": [
+            {
+              "name": "Cook",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79b3"
+              }
+            },
+            {
+              "name": "Warden",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79b4"
+              }
+            },
+            {
+              "name": "Security",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79b5"
+              }
+            },
+            {
+              "name": "Matron",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79b6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79b2"
+          }
+        },
+        {
+          "name": "Purchase Of Furniture",
+          "subcategory3": [
+            {
+              "name": "Cook",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79b8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79b7"
+          }
+        },
+        {
+          "name": "One Time Study Material",
+          "subcategory3": [
+            {
+              "name": "School uniform",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79ba"
+              }
+            },
+            {
+              "name": "Books",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79bb"
+              }
+            },
+            {
+              "name": "Bag",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79bc"
+              }
+            },
+            {
+              "name": "Shoes",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79bd"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79b9"
+          }
+        },
+        {
+          "name": "Gift for children",
+          "subcategory3": [
+            {
+              "name": "Blanket",
+              "narration": "Towards the payment for Gift for Children <ITEM NAME>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79bf"
+              }
+            },
+            {
+              "name": "Hygiene kit",
+              "narration": "Towards the payment for Gift for Children <ITEM NAME>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c0"
+              }
+            },
+            {
+              "name": "School kit",
+              "narration": "Towards the payment for Gift for Children <ITEM NAME>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c1"
+              }
+            },
+            {
+              "name": "Special meal",
+              "narration": "Towards the payment for Gift for Children <ITEM NAME>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c2"
+              }
+            },
+            {
+              "name": "Study Table/Chair",
+              "narration": "Towards the payment for Gift for Children <ITEM NAME>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c3"
+              }
+            },
+            {
+              "name": "Bicycle",
+              "narration": "Towards the payment for Gift for Children <ITEM NAME>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c4"
+              }
+            },
+            {
+              "name": "Personal Phone",
+              "narration": "Towards the payment for Gift for Children <ITEM NAME>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c5"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79be"
+          }
+        },
+        {
+          "name": "Comfort Materials",
+          "subcategory3": [
+            {
+              "name": "Outfit ",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c7"
+              }
+            },
+            {
+              "name": "Winter clothes",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79c8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79c6"
+          }
+        },
+        {
+          "name": "Fees",
+          "subcategory3": [
+            {
+              "name": "School Fee ",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>) , (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79ca"
+              }
+            },
+            {
+              "name": "Academic Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>) , (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79cb"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79c9"
+          }
+        },
+        {
+          "name": "Children Home Construction",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79cd"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79cc"
+          }
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "subcategory3": [
+            {
+              "name": "Building",
+              "narration": "Towards the expense for <sub-category item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79cf"
+              }
+            },
+            {
+              "name": "Equipment",
+              "narration": "Towards the expense for <sub-category item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d0"
+              }
+            },
+            {
+              "name": "Vehicle",
+              "narration": "Towards the expense for <sub-category item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d1"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79ce"
+          }
+        },
+        {
+          "name": "Purchase of Asset",
+          "subcategory3": [
+            {
+              "name": "CCTV",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d3"
+              }
+            },
+            {
+              "name": "MobilePhone",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d4"
+              }
+            },
+            {
+              "name": " Computer/Tablet",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d5"
+              }
+            },
+            {
+              "name": "Fan",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d6"
+              }
+            },
+            {
+              "name": "LapTop",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d7"
+              }
+            },
+            {
+              "name": "Office Equipment",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d8"
+              }
+            },
+            {
+              "name": "Cooler",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79d9"
+              }
+            },
+            {
+              "name": "Air Conditioner",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME><BRAND NAME> for (PURPOSE) for childrens Home <Name>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79da"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79d2"
+          }
+        },
+        {
+          "name": "Expense",
+          "subcategory3": [
+            {
+              "name": "Medical",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79dc"
+              }
+            },
+            {
+              "name": "Travel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79dd"
+              }
+            },
+            {
+              "name": " Vehicle Fual",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79de"
+              }
+            },
+            {
+              "name": "Generator Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79df"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79db"
+          }
+        },
+        {
+          "name": "Vehicle insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79e1"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79e0"
+          }
+        },
+        {
+          "name": "Charges",
+          "subcategory3": [
+            {
+              "name": "Electricity",
+              "narration": "Towards the expense for the<Name of Charge>for the Month of <MONTH,YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79e3"
+              }
+            },
+            {
+              "name": "Water",
+              "narration": "Towards the expense for the<Name of Charge>for the Month of <MONTH,YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79e4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79e2"
+          }
+        },
+        {
+          "name": "Summer camp/ Vacation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense for the<Name of Charge>for the Month of <MONTH,YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79e6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79e5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da79af"
+      }
+    },
+    {
+      "name": "Bastar Boys Hostel,Chitrakonda",
+      "subcategory2": [
+        {
+          "name": "Food Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the payment of food expense for (no:of children) of (name of children`s home) at (place) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79e9"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79e8"
+          }
+        },
+        {
+          "name": "Wages for children Home staff",
+          "subcategory3": [
+            {
+              "name": "Cook",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79eb"
+              }
+            },
+            {
+              "name": "Warden",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79ec"
+              }
+            },
+            {
+              "name": "Security",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79ed"
+              }
+            },
+            {
+              "name": "Matron",
+              "narration": "Towards the wages to (Designation) Mr/Mrs/Ms (name) for the month of (mon,year).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79ee"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79ea"
+          }
+        },
+        {
+          "name": "Purchase Of Furniture",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the purchase of <NO OF ITEM><ITEM NAME> for (PURPOSE) for childrens Home <Name>.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f0"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79ef"
+          }
+        },
+        {
+          "name": "One Time Study Material",
+          "subcategory3": [
+            {
+              "name": "School uniform",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f2"
+              }
+            },
+            {
+              "name": "Books",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f3"
+              }
+            },
+            {
+              "name": "Bag",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f4"
+              }
+            },
+            {
+              "name": "Shoes",
+              "narration": "Towards the expense of purchasing (no: and type of study mtrl) for (Childrens home name) children home (@ price of 1 piece).",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f5"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79f1"
+          }
+        },
+        {
+          "name": "Gift for children",
+          "subcategory3": [
+            {
+              "name": "Blanket",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f7"
+              }
+            },
+            {
+              "name": "Hygiene kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f8"
+              }
+            },
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79f9"
+              }
+            },
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79fa"
+              }
+            },
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79fb"
+              }
+            },
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79fc"
+              }
+            },
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79fd"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79f6"
+          }
+        },
+        {
+          "name": "Comfort Materials",
+          "subcategory3": [
+            {
+              "name": "Outfit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da79ff"
+              }
+            },
+            {
+              "name": "Winter clothes",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a00"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da79fe"
+          }
+        },
+        {
+          "name": "Fees",
+          "subcategory3": [
+            {
+              "name": "School Fee",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a02"
+              }
+            },
+            {
+              "name": "Academic Fee",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a03"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a01"
+          }
+        },
+        {
+          "name": "Children Home Construction ",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a05"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a04"
+          }
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "subcategory3": [
+            {
+              "name": "Building",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a07"
+              }
+            },
+            {
+              "name": "Equipment",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a08"
+              }
+            },
+            {
+              "name": "Vehicle",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Children s Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a09"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a06"
+          }
+        },
+        {
+          "name": "Purchase of Asset",
+          "subcategory3": [
+            {
+              "name": "CCTV",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a0b"
+              }
+            },
+            {
+              "name": "MobilePhone",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a0c"
+              }
+            },
+            {
+              "name": "Computer/Tablet",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Children s Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a0d"
+              }
+            },
+            {
+              "name": "Fan",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Children s Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a0e"
+              }
+            },
+            {
+              "name": "LapTop",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Children s Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a0f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a0a"
+          }
+        },
+        {
+          "name": "Expense",
+          "subcategory3": [
+            {
+              "name": "Medical",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a11"
+              }
+            },
+            {
+              "name": "Travel",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Childrens Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a12"
+              }
+            },
+            {
+              "name": "Vehicle Fuel",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Children s Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a13"
+              }
+            },
+            {
+              "name": "Generator Fuel",
+              "narration": "Towards the expense for <item name> repair and maintenance charges of Children s Home.",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a14"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a10"
+          }
+        },
+        {
+          "name": "Purchase",
+          "subcategory3": [
+            {
+              "name": "Computer and peripherals",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a16"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a15"
+          }
+        },
+        {
+          "name": "Vehicle insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the expense of vehicle insurance <Vehicle registration number>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a18"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a17"
+          }
+        },
+        {
+          "name": "Charges",
+          "subcategory3": [
+            {
+              "name": "Electricity",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a1a"
+              }
+            },
+            {
+              "name": "Water",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a1b"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a19"
+          }
+        },
+        {
+          "name": "Summer camp/ Vacation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a1d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a1c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da79e7"
+      }
+    },
+    {
+      "name": "Banarbas Boys & Childrens Home,Navarangapur",
+      "subcategory2": [
+        {
+          "name": "Food Expense",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a1f"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Wages for children Home staff",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a20"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Purchase Of Furniture",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a21"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "One Time Study Material",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a22"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Gift for children",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a23"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Comfort Materials",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a24"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Fees",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a25"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Children Home Construction",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a26"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a27"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Purchase of Asset",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a28"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Expense",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a29"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Computer and peripherals",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a2a"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Vehicle insurance",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a2b"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Charges",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a2c"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Summer camp/ Vacation",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a2d"
+          },
+          "subcategory3": []
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da7a1e"
+      }
+    },
+    {
+      "name": "Boys Home,Ummerkote",
+      "subcategory2": [
+        {
+          "name": "Food Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a30"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a2f"
+          }
+        },
+        {
+          "name": "Wages for children Home staff",
+          "subcategory3": [
+            {
+              "name": "Cook",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a32"
+              }
+            },
+            {
+              "name": "Warden",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a33"
+              }
+            },
+            {
+              "name": "Security",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a34"
+              }
+            },
+            {
+              "name": "Matron",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a35"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a31"
+          }
+        },
+        {
+          "name": "Purchase Of Furniture",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a37"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a36"
+          }
+        },
+        {
+          "name": "One Time Study Material",
+          "subcategory3": [
+            {
+              "name": "School uniform",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a39"
+              }
+            },
+            {
+              "name": "Books",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a3a"
+              }
+            },
+            {
+              "name": "Bag",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a3b"
+              }
+            },
+            {
+              "name": "Shoes",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a3c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a38"
+          }
+        },
+        {
+          "name": "Gift for children ",
+          "subcategory3": [
+            {
+              "name": "Blanket",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a3e"
+              }
+            },
+            {
+              "name": "Hygiene kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a3f"
+              }
+            },
+            {
+              "name": "School kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a40"
+              }
+            },
+            {
+              "name": "Special meal",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a41"
+              }
+            },
+            {
+              "name": "Study Table/Chair",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a42"
+              }
+            },
+            {
+              "name": "Bicycle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a43"
+              }
+            },
+            {
+              "name": "Personal Phone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a44"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a3d"
+          }
+        },
+        {
+          "name": "Comfort Materials",
+          "subcategory3": [
+            {
+              "name": "Outfit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a46"
+              }
+            },
+            {
+              "name": "Winter clothes",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a47"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a45"
+          }
+        },
+        {
+          "name": "Fees",
+          "subcategory3": [
+            {
+              "name": "School Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>) , (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a49"
+              }
+            },
+            {
+              "name": "Academic Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>) , (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a4a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a48"
+          }
+        },
+        {
+          "name": "Children Home Construction ",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a4c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a4b"
+          }
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "subcategory3": [
+            {
+              "name": "Building",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a4e"
+              }
+            },
+            {
+              "name": "Equipment",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a4f"
+              }
+            },
+            {
+              "name": "Vehicle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a50"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a4d"
+          }
+        },
+        {
+          "name": "Purchase of Asset",
+          "subcategory3": [
+            {
+              "name": "CCTV",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a52"
+              }
+            },
+            {
+              "name": "MobilePHone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a53"
+              }
+            },
+            {
+              "name": "computer/tablet",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a54"
+              }
+            },
+            {
+              "name": "Fan",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a55"
+              }
+            },
+            {
+              "name": "LapTop",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a56"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a51"
+          }
+        },
+        {
+          "name": "Expense",
+          "subcategory3": [
+            {
+              "name": "Medical",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a58"
+              }
+            },
+            {
+              "name": "Travel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a59"
+              }
+            },
+            {
+              "name": "Vehicle Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a5a"
+              }
+            },
+            {
+              "name": "Generator Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a5b"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a57"
+          }
+        },
+        {
+          "name": "Computer and peripherals",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a5d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a5c"
+          }
+        },
+        {
+          "name": "Vehicle insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a5f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a5e"
+          }
+        },
+        {
+          "name": "Charges",
+          "subcategory3": [
+            {
+              "name": "Electricity",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a61"
+              }
+            },
+            {
+              "name": "Water",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a62"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a60"
+          }
+        },
+        {
+          "name": "Summer camp/ Vacation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a64"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a63"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da7a2e"
+      }
+    },
+    {
+      "name": "Bell House,North East",
+      "subcategory2": [
+        {
+          "name": "Gift for children ",
+          "subcategory3": [
+            {
+              "name": "Blanket",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a67"
+              }
+            },
+            {
+              "name": "Hygiene kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a68"
+              }
+            },
+            {
+              "name": "School kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a69"
+              }
+            },
+            {
+              "name": "Special meal",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a6a"
+              }
+            },
+            {
+              "name": "Study Table/Chair",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a6b"
+              }
+            },
+            {
+              "name": "Bicycle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a6c"
+              }
+            },
+            {
+              "name": "Personal Phone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a6d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a66"
+          }
+        },
+        {
+          "name": "Comfort Materials",
+          "subcategory3": [
+            {
+              "name": "Outfit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a6f"
+              }
+            },
+            {
+              "name": "Winter clothes",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a70"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a6e"
+          }
+        },
+        {
+          "name": "Fees",
+          "subcategory3": [
+            {
+              "name": "School Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>) , (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a72"
+              }
+            },
+            {
+              "name": "Academic Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>) , (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a73"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a71"
+          }
+        },
+        {
+          "name": "Children Home Construction ",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a75"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a74"
+          }
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "subcategory3": [
+            {
+              "name": "Building",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a77"
+              }
+            },
+            {
+              "name": "Equipment",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a78"
+              }
+            },
+            {
+              "name": "Vehicle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a79"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a76"
+          }
+        },
+        {
+          "name": "Purchase of Asset",
+          "subcategory3": [
+            {
+              "name": "CCTV",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a7b"
+              }
+            },
+            {
+              "name": "MobilePHone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a7c"
+              }
+            },
+            {
+              "name": "computer/tablet",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a7d"
+              }
+            },
+            {
+              "name": "Fan",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a7e"
+              }
+            },
+            {
+              "name": "LapTop",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a7f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a7a"
+          }
+        },
+        {
+          "name": "Expense",
+          "subcategory3": [
+            {
+              "name": "Medical",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a81"
+              }
+            },
+            {
+              "name": "Travel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a82"
+              }
+            },
+            {
+              "name": "Vehicle Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a83"
+              }
+            },
+            {
+              "name": "Generator Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a84"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a80"
+          }
+        },
+        {
+          "name": "Computer and peripherals",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a86"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a85"
+          }
+        },
+        {
+          "name": "Vehicle insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a88"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a87"
+          }
+        },
+        {
+          "name": "Charges",
+          "subcategory3": [
+            {
+              "name": "Electricity",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a8a"
+              }
+            },
+            {
+              "name": "Water",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a8b"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a89"
+          }
+        },
+        {
+          "name": "Summer camp/ Vacation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a8d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a8c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da7a65"
+      }
+    },
+    {
+      "name": "Deborah,North East",
+      "subcategory2": [
+        {
+          "name": "Gift for children",
+          "subcategory3": [
+            {
+              "name": "Blanket",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a90"
+              }
+            },
+            {
+              "name": "Hygiene kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a91"
+              }
+            },
+            {
+              "name": "School kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a92"
+              }
+            },
+            {
+              "name": "Special meal",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a93"
+              }
+            },
+            {
+              "name": "Study Table/Chair",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a94"
+              }
+            },
+            {
+              "name": "Bicycle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a95"
+              }
+            },
+            {
+              "name": "Personal Phone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a96"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a8f"
+          }
+        },
+        {
+          "name": "Comfort Materials",
+          "subcategory3": [
+            {
+              "name": "Outfit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a98"
+              }
+            },
+            {
+              "name": "Winter clothes",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a99"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a97"
+          }
+        },
+        {
+          "name": "Fees",
+          "subcategory3": [
+            {
+              "name": "School Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>), (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a9b"
+              }
+            },
+            {
+              "name": "Academic Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>), (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a9c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a9a"
+          }
+        },
+        {
+          "name": "Children Home Construction",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7a9e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a9d"
+          }
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "subcategory3": [
+            {
+              "name": "Building",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa0"
+              }
+            },
+            {
+              "name": "Equipment",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa1"
+              }
+            },
+            {
+              "name": "Vehicle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7a9f"
+          }
+        },
+        {
+          "name": "Purchase of Asset",
+          "subcategory3": [
+            {
+              "name": "CCTV",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa4"
+              }
+            },
+            {
+              "name": "MobilePHone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa5"
+              }
+            },
+            {
+              "name": "computer/tablet",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa6"
+              }
+            },
+            {
+              "name": "Fan",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa7"
+              }
+            },
+            {
+              "name": "LapTop",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aa8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7aa3"
+          }
+        },
+        {
+          "name": "Expense",
+          "subcategory3": [
+            {
+              "name": "Medical",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aaa"
+              }
+            },
+            {
+              "name": "Travel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aab"
+              }
+            },
+            {
+              "name": "Vehicle Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aac"
+              }
+            },
+            {
+              "name": "Generator Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aad"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7aa9"
+          }
+        },
+        {
+          "name": "Computer and peripherals",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aaf"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7aae"
+          }
+        },
+        {
+          "name": "Vehicle insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ab1"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ab0"
+          }
+        },
+        {
+          "name": "Charges",
+          "subcategory3": [
+            {
+              "name": "Electricity",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ab3"
+              }
+            },
+            {
+              "name": "Water",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ab4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ab2"
+          }
+        },
+        {
+          "name": "Summer camp/ Vacation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ab6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ab5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da7a8e"
+      }
+    },
+    {
+      "name": "Good Samaritan,North East",
+      "subcategory2": [
+        {
+          "name": "Gift for children",
+          "subcategory3": [
+            {
+              "name": "Blanket",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ab9"
+              }
+            },
+            {
+              "name": "Hygiene kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aba"
+              }
+            },
+            {
+              "name": "School kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7abb"
+              }
+            },
+            {
+              "name": "Special meal",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7abc"
+              }
+            },
+            {
+              "name": "Study Table/Chair",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7abd"
+              }
+            },
+            {
+              "name": "Bicycle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7abe"
+              }
+            },
+            {
+              "name": "Personal Phone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7abf"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ab8"
+          }
+        },
+        {
+          "name": "Comfort Materials",
+          "subcategory3": [
+            {
+              "name": "Outfit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ac1"
+              }
+            },
+            {
+              "name": "Winter clothes",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ac2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ac0"
+          }
+        },
+        {
+          "name": "Fees",
+          "subcategory3": [
+            {
+              "name": "School Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>), (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ac4"
+              }
+            },
+            {
+              "name": "Academic Fee",
+              "narration": "Towards the Fee of (Name of purpose <Academic/School>), (No of Childrens) of (Children’s Home Name) For (Duration)",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ac5"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ac3"
+          }
+        },
+        {
+          "name": "Children Home Construction",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ac7"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ac6"
+          }
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "subcategory3": [
+            {
+              "name": "Building",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ac9"
+              }
+            },
+            {
+              "name": "Equipment",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aca"
+              }
+            },
+            {
+              "name": "Vehicle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7acb"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ac8"
+          }
+        },
+        {
+          "name": "Purchase of Asset",
+          "subcategory3": [
+            {
+              "name": "CCTV",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7acd"
+              }
+            },
+            {
+              "name": "MobilePHone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ace"
+              }
+            },
+            {
+              "name": "computer/tablet",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7acf"
+              }
+            },
+            {
+              "name": "Fan",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ad0"
+              }
+            },
+            {
+              "name": "LapTop",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ad1"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7acc"
+          }
+        },
+        {
+          "name": "Expense",
+          "subcategory3": [
+            {
+              "name": "Medical",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ad3"
+              }
+            },
+            {
+              "name": "Travel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ad4"
+              }
+            },
+            {
+              "name": "Vehicle Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ad5"
+              }
+            },
+            {
+              "name": "Generator Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ad6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ad2"
+          }
+        },
+        {
+          "name": "Computer and peripherals",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ad8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ad7"
+          }
+        },
+        {
+          "name": "Vehicle insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ada"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ad9"
+          }
+        },
+        {
+          "name": "Charges",
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7adb"
+          },
+          "subcategory3": []
+        },
+        {
+          "name": "Summer camp/ Vacation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7add"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7adc"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da7ab7"
+      }
+    },
+    {
+      "name": "School Expense",
+      "subcategory2": [
+        {
+          "name": "School Building Construction",
+          "subcategory3": [
+            {
+              "name": "School Building Construction",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ae0"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7adf"
+          }
+        },
+        {
+          "name": "Academic & School Activity",
+          "subcategory3": [
+            {
+              "name": "(Sports Related Items)",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ae2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ae1"
+          }
+        },
+        {
+          "name": "Administrative Expenses",
+          "subcategory3": [
+            {
+              "name": "Fuel",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ae4"
+              }
+            },
+            {
+              "name": "Photography",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ae5"
+              }
+            },
+            {
+              "name": "Postage",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ae6"
+              }
+            },
+            {
+              "name": "Courier",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ae7"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ae3"
+          }
+        },
+        {
+          "name": "Charges",
+          "subcategory3": [
+            {
+              "name": "Electricity Charges",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7ae9"
+              }
+            },
+            {
+              "name": "Printing Charges",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aea"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7ae8"
+          }
+        },
+        {
+          "name": "Repairs/Maintenance",
+          "subcategory3": [
+            {
+              "name": "Building",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aec"
+              }
+            },
+            {
+              "name": "Equipment/Furniture",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aed"
+              }
+            },
+            {
+              "name": "Generator",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aee"
+              }
+            },
+            {
+              "name": "vehicle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7aef"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7aeb"
+          }
+        },
+        {
+          "name": "Salary & Allowance",
+          "subcategory3": [
+            {
+              "name": "ESI",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7af1"
+              }
+            },
+            {
+              "name": "PF",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7af2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7af0"
+          }
+        },
+        {
+          "name": "School Equipment",
+          "subcategory3": [
+            {
+              "name": "Generator",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7af4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7af3"
+          }
+        },
+        {
+          "name": "School Furniture",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7af6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7af5"
+          }
+        },
+        {
+          "name": "Sound & Voice System",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7af8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7af7"
+          }
+        },
+        {
+          "name": "Computer and peripherals",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7afa"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7af9"
+          }
+        },
+        {
+          "name": "Printer",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7afc"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7afb"
+          }
+        },
+        {
+          "name": "Scanner",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7afe"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7afd"
+          }
+        },
+        {
+          "name": "CCTV",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b00"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7aff"
+          }
+        },
+        {
+          "name": "Generator",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b02"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b01"
+          }
+        },
+        {
+          "name": "Water Charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b04"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b03"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da7ade"
+      }
+    },
+    {
+      "name": "Children Welfare",
+      "subcategory2": [
+        {
+          "name": "Child Education Assistance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b07"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b06"
+          }
+        },
+        {
+          "name": "Children Study Help",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b09"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b08"
+          }
+        },
+        {
+          "name": "Gift for children",
+          "subcategory3": [
+            {
+              "name": "Blanket",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b0b"
+              }
+            },
+            {
+              "name": "Hygiene kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b0c"
+              }
+            },
+            {
+              "name": "School kit",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b0d"
+              }
+            },
+            {
+              "name": "Special meal",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b0e"
+              }
+            },
+            {
+              "name": "Study Table/Chair",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b0f"
+              }
+            },
+            {
+              "name": "Bicycle",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b10"
+              }
+            },
+            {
+              "name": "Phone",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b11"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b0a"
+          }
+        },
+        {
+          "name": "Metro Ministry",
+          "subcategory3": [
+            {
+              "name": "Children Trainer Support",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b13"
+              }
+            },
+            {
+              "name": "Scholarship",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b14"
+              }
+            },
+            {
+              "name": "Study Materials",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b15"
+              }
+            },
+            {
+              "name": "Office expenses",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b16"
+              }
+            },
+            {
+              "name": "Travel Expenses",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b17"
+              }
+            },
+            {
+              "name": "Printing Charge",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b18"
+              }
+            },
+            {
+              "name": "Gift For Children",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b19"
+              }
+            },
+            {
+              "name": "Comfort materials",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b1a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b12"
+          }
+        },
+        {
+          "name": "CNP Programm Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b1c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b1b"
+          }
+        },
+        {
+          "name": "PCM Program",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b5faae0b677fe0da7b1e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b5faae0b677fe0da7b1d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b5faae0b677fe0da7b05"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a1b6e7ae0b677fe0da7b2e"
+  },
+  "name": "welfare, education & awareness program",
+  "subcategory1": [
+    {
+      "name": "Literacy Awareness Programme",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b31"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b30"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b2f"
+      }
+    },
+    {
+      "name": "Literacy convention",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b34"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b33"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b32"
+      }
+    },
+    {
+      "name": "Public Meeting",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b37"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b36"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b35"
+      }
+    },
+    {
+      "name": "Sub-Divisional Convention",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b3a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b39"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b38"
+      }
+    },
+    {
+      "name": "Faith Festival",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b3d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b3c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b3b"
+      }
+    },
+    {
+      "name": "Message Recording Expenses",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b40"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b3f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b3e"
+      }
+    },
+    {
+      "name": "Message Telecasting Expenses",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b43"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b42"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b41"
+      }
+    },
+    {
+      "name": "Medical Ministry",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b46"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b45"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b44"
+      }
+    },
+    {
+      "name": "Youth Awareness programme",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b49"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b48"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b47"
+      }
+    },
+    {
+      "name": "Welfare of Gond Tribe",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b4c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b4b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b4a"
+      }
+    },
+    {
+      "name": "DVD Player",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b4f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b4e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b4d"
+      }
+    },
+    {
+      "name": "LCD Projector",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b52"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b51"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b50"
+      }
+    },
+    {
+      "name": "PA System Sound & Voice System",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b55"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b54"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b53"
+      }
+    },
+    {
+      "name": "Educational Assistance",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1b6e7ae0b677fe0da7b58"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1b6e7ae0b677fe0da7b57"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1b6e7ae0b677fe0da7b56"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a1c0bdae0b677fe0da7b7d"
+  },
+  "name": "Construction/Repairs & Maintenance Of Place Of Worship",
+  "subcategory1": [
+    {
+      "name": "Land",
+      "subcategory2": [
+        {
+          "name": "Purchase of land",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b80"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b7f"
+          }
+        },
+        {
+          "name": "Registration charges/Stamp Duties",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b82"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b81"
+          }
+        },
+        {
+          "name": "Documentation charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b84"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b83"
+          }
+        },
+        {
+          "name": "Transfer of title/ mutation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b86"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b85"
+          }
+        },
+        {
+          "name": "Land / Property Tax",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b88"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b87"
+          }
+        },
+        {
+          "name": "Land Demarcation Charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b8a"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b89"
+          }
+        },
+        {
+          "name": "Land Conversion Charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b8c"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b8b"
+          }
+        },
+        {
+          "name": "Brokerage Fee",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b8e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b8d"
+          }
+        },
+        {
+          "name": "Land Search (Encumbrance) Report",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b90"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b8f"
+          }
+        },
+        {
+          "name": "Advocate Fees",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b92"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b91"
+          }
+        },
+        {
+          "name": "Land Development Charge",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b94"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b93"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1c0bdae0b677fe0da7b7e"
+      }
+    },
+    {
+      "name": "Purchase Of Building",
+      "subcategory2": [
+        {
+          "name": "Registration charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b97"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b96"
+          }
+        },
+        {
+          "name": "Documentation charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b99"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b98"
+          }
+        },
+        {
+          "name": "Tax Payment",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b9b"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b9a"
+          }
+        },
+        {
+          "name": "Purchase Consultancy Charge",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b9d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b9c"
+          }
+        },
+        {
+          "name": "Mutation Charges",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7b9f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7b9e"
+          }
+        },
+        {
+          "name": "Brokerage Fee",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7ba1"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7ba0"
+          }
+        },
+        {
+          "name": "Insurance",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7ba3"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7ba2"
+          }
+        },
+        {
+          "name": "Advocate Fees",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7ba5"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7ba4"
+          }
+        },
+        {
+          "name": "Legal Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7ba7"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7ba6"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1c0bdae0b677fe0da7b95"
+      }
+    },
+    {
+      "name": "Building Construction",
+      "subcategory2": [
+        {
+          "name": "Auditorium",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7baa"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7ba9"
+          }
+        },
+        {
+          "name": "Borewell",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bac"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bab"
+          }
+        },
+        {
+          "name": "Boundary wall/Fence",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bae"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bad"
+          }
+        },
+        {
+          "name": "Chapel",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bb0"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7baf"
+          }
+        },
+        {
+          "name": "Church Building",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bb2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bb1"
+          }
+        },
+        {
+          "name": "Church Office",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bb4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bb3"
+          }
+        },
+        {
+          "name": "Community Hall",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bb6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bb5"
+          }
+        },
+        {
+          "name": "Daycare",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bb8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bb7"
+          }
+        },
+        {
+          "name": "Divisional Headquarter",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bba"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bb9"
+          }
+        },
+        {
+          "name": "Guest House",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bbc"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bbb"
+          }
+        },
+        {
+          "name": "Hope Centre",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bbe"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bbd"
+          }
+        },
+        {
+          "name": "Lavatories",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bc0"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bbf"
+          }
+        },
+        {
+          "name": "Library",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bc2"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bc1"
+          }
+        },
+        {
+          "name": "Office Building",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bc4"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bc3"
+          }
+        },
+        {
+          "name": "Parsonage",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bc6"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bc5"
+          }
+        },
+        {
+          "name": "Prayer Hall",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bc8"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bc7"
+          }
+        },
+        {
+          "name": "Prayer Tower",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bca"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bc9"
+          }
+        },
+        {
+          "name": "Renovation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bcc"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bcb"
+          }
+        },
+        {
+          "name": "Staff Quarters",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c0bdae0b677fe0da7bce"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c0bdae0b677fe0da7bcd"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1c0bdae0b677fe0da7ba8"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a1c453ae0b677fe0da7c0c"
+  },
+  "name": "Care/Relief",
+  "subcategory1": [
+    {
+      "name": "Community Development",
+      "subcategory2": [
+        {
+          "name": "Winter Clothes",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c0f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c0e"
+          }
+        },
+        {
+          "name": "Disaster Relief",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c11"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c10"
+          }
+        },
+        {
+          "name": "Welfare Help",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c13"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c12"
+          }
+        },
+        {
+          "name": "Medical Camp",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c15"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c14"
+          }
+        },
+        {
+          "name": "Mass Marriage",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c17"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c16"
+          }
+        },
+        {
+          "name": "Assistance For Medical Expense",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c19"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c18"
+          }
+        },
+        {
+          "name": "Assistance For Rehabilitation",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c1b"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c1a"
+          }
+        },
+        {
+          "name": "Assistance For Borewell For Community",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c1d"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c1c"
+          }
+        },
+        {
+          "name": "Assistance For Community Development Programme",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c1f"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c1e"
+          }
+        },
+        {
+          "name": "Flood Relief",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c21"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c20"
+          }
+        },
+        {
+          "name": "Relief (Covid-19)",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c453ae0b677fe0da7c23"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c453ae0b677fe0da7c22"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1c453ae0b677fe0da7c0d"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a1c502ae0b677fe0da7c2b"
+  },
+  "name": "Other Activities",
+  "subcategory1": [
+    {
+      "name": "TCS",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c502ae0b677fe0da7c2e"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c502ae0b677fe0da7c2d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1c502ae0b677fe0da7c2c"
+      }
+    },
+    {
+      "name": "Bank charges",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c502ae0b677fe0da7c31"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c502ae0b677fe0da7c30"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1c502ae0b677fe0da7c2f"
+      }
+    },
+    {
+      "name": "TDS Interest",
+      "subcategory2": [
+        {
+          "name": "Select",
+          "subcategory3": [
+            {
+              "name": "Select",
+              "narration": "Towards the Monthly Support of <DESIGNATION NAME> Mr/Ms/Mrs <NAME>for the month of <MONTH, YEAR>",
+              "_id": {
+                "$oid": "64a1c502ae0b677fe0da7c34"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64a1c502ae0b677fe0da7c33"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "64a1c502ae0b677fe0da7c32"
+      }
+    }
+  ],
+  "__v": 0
+}]

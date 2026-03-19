@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "6475b33f424c132d3287e55e"
+  },
+  "name": "Designing",
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  },
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-30T08:26:39.190Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-30T08:26:39.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6475b33f424c132d3287e561"
+  },
+  "name": "Development",
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  },
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-30T08:26:39.198Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-30T08:26:39.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6475b33f424c132d3287e564"
+  },
+  "name": "Integration",
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  },
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-30T08:26:39.204Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-30T08:26:39.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6475b33f424c132d3287e567"
+  },
+  "name": "Testing",
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  },
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-30T08:26:39.216Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-30T08:26:39.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6475b33f424c132d3287e56a"
+  },
+  "name": "Deployment",
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  },
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-30T08:26:39.224Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-30T08:26:39.224Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,37 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "IET API Tests",
+    "dateExported": "2023-05-10T10:01:30.501Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "328a8b2e-2291-4b2c-aa41-d981edb5c3d9",
+            "colId": "4a789894-14dd-41d8-b4cd-73bc23bd1f1e",
+            "containerId": "",
+            "name": "Create new staff request",
+            "url": "http://localhost:8080/staff",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-10T09:56:38.298Z",
+            "modified": "2023-05-10T09:56:38.298Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f501ca4a-4052-446f-bb86-0b938e8ae581",
+            "colId": "4a789894-14dd-41d8-b4cd-73bc23bd1f1e",
+            "containerId": "",
+            "name": "Get Staff Request",
+            "url": "http://localhost:8080/staff",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-10T09:56:47.639Z",
+            "modified": "2023-05-10T09:56:47.639Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

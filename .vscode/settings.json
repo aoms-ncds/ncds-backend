@@ -1,0 +1,21 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "files.eol": "\r\n",
+  // "editor.fontFamily": "Chalkduster"
+  // "editor.fontFamily": "Farah"
+  // "editor.fontFamily": "SignPainter"
+  // "editor.fontFamily": "Webdings"
+  // "editor.fontFamily": "Cedarville Cursive",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+  "cSpell.words": ["annmariyacomputervalley"]
+}

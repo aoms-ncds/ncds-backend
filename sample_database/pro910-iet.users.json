@@ -1,0 +1,1405 @@
+[{
+  "_id": {
+    "$oid": "6492ed802a73a133142bcb0c"
+  },
+  "staffCode": "IETWK00001",
+  "tokens": [
+    "f6KkVzhnd1TcpvE1UIRnki:APA91bFfaJRXegBXaOS-FrzvlBnYXubuOcKRfr8_HHzcUUVHUx8cobn5D6TigcJIVcWET6cnQXUA_2qIbh0wtdDMSiotwDIbZTvnFyBAKWKMJwPG8mtH_PnIuYr3hKykaSNrVYIhAsfk"
+  ],
+  "basicDetails": {
+    "firstName": "AOMS",
+    "lastName": "IET",
+    "dateOfBirth": {
+      "$date": "2023-05-31T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "aoms@ietmissions.org",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "6492ed802a73a133142bcb0e"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "6492ed802a73a133142bcb0f"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "6492ed802a73a133142bcb10"
+      }
+    },
+    "_id": {
+      "$oid": "6492ed802a73a133142bcb11"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "_id": {
+          "$oid": "6492ed802a73a133142bcb13"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "6492ed802a73a133142bcb12"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "6492ed802a73a133142bcb14"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "6492ed802a73a133142bcb15"
+    }
+  },
+  "status": 100,
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-06-21T12:30:56.121Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-12T13:53:27.387Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "6492d8f785d6cd5086586d2c"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "649ea333a21f0fd145a54d51"
+  },
+  "staffCode": "IETWK00002",
+  "tokens": [],
+  "basicDetails": {
+    "firstName": "Accounts",
+    "lastName": "A",
+    "dateOfBirth": {
+      "$date": "2023-05-31T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "accounts@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "649ea333a21f0fd145a54d53"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "649ea333a21f0fd145a54d54"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "649ea333a21f0fd145a54d55"
+      }
+    },
+    "_id": {
+      "$oid": "649ea333a21f0fd145a54d56"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "_id": {
+          "$oid": "649ea333a21f0fd145a54d58"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 12,
+    "_id": {
+      "$oid": "649ea333a21f0fd145a54d57"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "649ea333a21f0fd145a54d59"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "649ea333a21f0fd145a54d5a"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "6492ed802a73a133142bcb0c"
+  },
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-06-30T09:41:07.314Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T04:25:26.222Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "649ea333a21f0fd145a54d5e"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "649ea394a21f0fd145a54da4"
+  },
+  "staffCode": "IETWK00003",
+  "tokens": [
+    "cswiuRIc3cpAVWrKHkn0A9:APA91bGYm8VQ_y6rcHONUzmBAhN-oa-Xgk2RVwYNeIECODe4lJqJPyFY7qeXFWscOSx8AsAIDPprK9NiiLDQtAYltee3fExGnBSGdtuFwcD6MdIGL_WWVHUgTR83o5LisXLRrVGtmdad",
+    "e2ft8WUspVXbB8XcbL5Er6:APA91bFq1B03K7125KeR93hR8MrjpMnlmt3jrqOvd3m4QOYyg-6-zIwTOUByx1TiLWetk9orz3rsxeGLkZldl1cpULsb1iKJJtMGE8tpuC_8fp1dcYNwumsbSfQ8pcXs_baOteH-T1IZ",
+    "dawVC-j-nMZBqKpBeYijRK:APA91bEUlT0vQQH8plg-o2Fny25GIsi42P1VjF8uvYhiPV9Jm10OOUoNUSEaIvb6tlFY4P5IA3-eO94wn3f7TnHAjCNKiYyRhcNR7XSZCvXl_mUVXVDENLjjTe9XFz_IrRUhfRUA0_um"
+  ],
+  "imageURL": "https://drive.google.com/uc?id=1WI0SBsaniWk1m7UzpTN3efUOApTsd-1j&export=download",
+  "basicDetails": {
+    "firstName": "President",
+    "lastName": "P",
+    "dateOfBirth": {
+      "$date": "2023-05-31T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "president@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "649ea394a21f0fd145a54da6"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "649ea394a21f0fd145a54da7"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "649ea394a21f0fd145a54da8"
+      }
+    },
+    "_id": {
+      "$oid": "649ea394a21f0fd145a54da9"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e561"
+        },
+        "_id": {
+          "$oid": "649ea394a21f0fd145a54dab"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "649ea394a21f0fd145a54daa"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "649ea394a21f0fd145a54dac"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "649ea394a21f0fd145a54dad"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "6492ed802a73a133142bcb0c"
+  },
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-06-30T09:42:44.191Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-05T04:50:25.426Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "649ea398a21f0fd145a54dc7"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "649eac6acccfecd1c36709db"
+  },
+  "staffCode": "IETWK00004",
+  "tokens": [
+    "e2ft8WUspVXbB8XcbL5Er6:APA91bFq1B03K7125KeR93hR8MrjpMnlmt3jrqOvd3m4QOYyg-6-zIwTOUByx1TiLWetk9orz3rsxeGLkZldl1cpULsb1iKJJtMGE8tpuC_8fp1dcYNwumsbSfQ8pcXs_baOteH-T1IZ",
+    "e2ft8WUspVXbB8XcbL5Er6:APA91bFq1B03K7125KeR93hR8MrjpMnlmt3jrqOvd3m4QOYyg-6-zIwTOUByx1TiLWetk9orz3rsxeGLkZldl1cpULsb1iKJJtMGE8tpuC_8fp1dcYNwumsbSfQ8pcXs_baOteH-T1IZ"
+  ],
+  "basicDetails": {
+    "firstName": "HR",
+    "lastName": "r",
+    "dateOfBirth": {
+      "$date": "2023-05-31T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "hr@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "649eac6bcccfecd1c36709dd"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "649eac6bcccfecd1c36709de"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "649eac6bcccfecd1c36709df"
+      }
+    },
+    "_id": {
+      "$oid": "649eac6bcccfecd1c36709e0"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "_id": {
+          "$oid": "649eac6bcccfecd1c36709e2"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 121,
+    "_id": {
+      "$oid": "649eac6bcccfecd1c36709e1"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "649eac6bcccfecd1c36709e3"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "649eac6bcccfecd1c36709e4"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "6492ed802a73a133142bcb0c"
+  },
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-06-30T10:20:27.032Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-03T06:36:48.723Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "649eac6bcccfecd1c36709e8"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a035fc03d6f717e8814880"
+  },
+  "staffCode": "IETWK00005",
+  "tokens": [
+    "dAhl7nyLg_WJYiyB3A55SY:APA91bF1t8i9CQjeBSUZjuWvoHxB-4Aol8YXYEmXYNaUsUAuVlhAkR_lOkv4lpPvEJrrPl2993Yp_d4bpl-YdZDkG_VTqkebJvzz0pwbEnNLWtLD9LfSPTS3DfbKZfT-TAP-y30BqCpg"
+  ],
+  "basicDetails": {
+    "firstName": "Division",
+    "lastName": " head",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "div@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64a035fc03d6f717e8814882"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64a035fc03d6f717e8814883"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64a035fc03d6f717e8814884"
+      }
+    },
+    "_id": {
+      "$oid": "64a035fc03d6f717e8814885"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "dateOfDivisionLeaving": {
+          "$date": "2023-06-30T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64a035fc03d6f717e8814887"
+        }
+      },
+      {
+        "division": {
+          "$oid": "64a6ab61b25851b7ef59e594"
+        },
+        "subDivision": {
+          "$oid": "64a6ab62b25851b7ef59e5be"
+        },
+        "dateOfDivisionJoining": {
+          "$date": "2023-06-30T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64a6b4105fa5295e1e754084"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "64a035fc03d6f717e8814886"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64a035fc03d6f717e8814888"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": -3,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64a035fc03d6f717e8814889"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "649eac6acccfecd1c36709db"
+  },
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-07-01T14:19:40.174Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-07T05:47:55.278Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64a035fc03d6f717e8814894"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a272ce3bc92fd5a0d23b59"
+  },
+  "staffCode": "IETWK00006",
+  "tokens": [
+    "e2ft8WUspVXbB8XcbL5Er6:APA91bFq1B03K7125KeR93hR8MrjpMnlmt3jrqOvd3m4QOYyg-6-zIwTOUByx1TiLWetk9orz3rsxeGLkZldl1cpULsb1iKJJtMGE8tpuC_8fp1dcYNwumsbSfQ8pcXs_baOteH-T1IZ",
+    "e2ft8WUspVXbB8XcbL5Er6:APA91bFq1B03K7125KeR93hR8MrjpMnlmt3jrqOvd3m4QOYyg-6-zIwTOUByx1TiLWetk9orz3rsxeGLkZldl1cpULsb1iKJJtMGE8tpuC_8fp1dcYNwumsbSfQ8pcXs_baOteH-T1IZ"
+  ],
+  "basicDetails": {
+    "firstName": "Offfice ",
+    "lastName": "Mangr",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "officemngr@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64a272ce3bc92fd5a0d23b5b"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64a272ce3bc92fd5a0d23b5c"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64a272ce3bc92fd5a0d23b5d"
+      }
+    },
+    "_id": {
+      "$oid": "64a272ce3bc92fd5a0d23b5e"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "_id": {
+          "$oid": "64a272ce3bc92fd5a0d23b60"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "64a272ce3bc92fd5a0d23b5f"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64a272ce3bc92fd5a0d23b61"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64a272ce3bc92fd5a0d23b62"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "649eac6acccfecd1c36709db"
+  },
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-07-03T07:03:42.552Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-07T06:43:21.352Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64a272ce3bc92fd5a0d23b66"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a2730d3bc92fd5a0d23bb5"
+  },
+  "staffCode": "IETWK00007",
+  "tokens": [
+    "cswiuRIc3cpAVWrKHkn0A9:APA91bGYm8VQ_y6rcHONUzmBAhN-oa-Xgk2RVwYNeIECODe4lJqJPyFY7qeXFWscOSx8AsAIDPprK9NiiLDQtAYltee3fExGnBSGdtuFwcD6MdIGL_WWVHUgTR83o5LisXLRrVGtmdad",
+    "cswiuRIc3cpAVWrKHkn0A9:APA91bGYm8VQ_y6rcHONUzmBAhN-oa-Xgk2RVwYNeIECODe4lJqJPyFY7qeXFWscOSx8AsAIDPprK9NiiLDQtAYltee3fExGnBSGdtuFwcD6MdIGL_WWVHUgTR83o5LisXLRrVGtmdad",
+    "cswiuRIc3cpAVWrKHkn0A9:APA91bGYm8VQ_y6rcHONUzmBAhN-oa-Xgk2RVwYNeIECODe4lJqJPyFY7qeXFWscOSx8AsAIDPprK9NiiLDQtAYltee3fExGnBSGdtuFwcD6MdIGL_WWVHUgTR83o5LisXLRrVGtmdad"
+  ],
+  "basicDetails": {
+    "firstName": "Office",
+    "lastName": "Accounts",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "offaccounts@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64a2730d3bc92fd5a0d23bb7"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64a2730d3bc92fd5a0d23bb8"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64a2730d3bc92fd5a0d23bb9"
+      }
+    },
+    "_id": {
+      "$oid": "64a2730d3bc92fd5a0d23bba"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "_id": {
+          "$oid": "64a2730d3bc92fd5a0d23bbc"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 11,
+    "_id": {
+      "$oid": "64a2730d3bc92fd5a0d23bbb"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64a2730d3bc92fd5a0d23bbd"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64a2730d3bc92fd5a0d23bbe"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "649eac6acccfecd1c36709db"
+  },
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-07-03T07:04:45.211Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-05T04:47:15.274Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64a2730d3bc92fd5a0d23bc2"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a2b1b4135a62251c142aa5"
+  },
+  "staffCode": "IETWK00008",
+  "tokens": [],
+  "basicDetails": {
+    "firstName": "Accounts",
+    "lastName": "Manager",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "accountsmngr@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64a2b1b4135a62251c142aa7"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64a2b1b4135a62251c142aa8"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64a2b1b4135a62251c142aa9"
+      }
+    },
+    "_id": {
+      "$oid": "64a2b1b4135a62251c142aaa"
+    }
+  },
+  "officialDetails": {
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e564"
+        },
+        "_id": {
+          "$oid": "64a2b1b4135a62251c142aac"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 12,
+    "_id": {
+      "$oid": "64a2b1b4135a62251c142aab"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64a2b1b4135a62251c142aad"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64a2b1b4135a62251c142aae"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "6492ed802a73a133142bcb0c"
+  },
+  "kind": "staff",
+  "createdAt": {
+    "$date": "2023-07-03T11:32:04.412Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-03T11:32:04.665Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64a2b1b4135a62251c142abe"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ab87a947e6a6bf9072899e"
+  },
+  "workerCode": "WK00004",
+  "spouse": null,
+  "children": [],
+  "tokens": [
+    "f0sqVu7OkwCKiMFHF7ykYy:APA91bGXOtJ67vvWfojIIj1uwEA35fJPkA2iA3jSXBs4sj1PVtuL1AYf32Cv2CT8etHV3yEihPr8wSieHzSK9bGuggbWU2ZZCQ0TAFclEc8uwnlRWyF0oIOVLdWQztu1X9ih5qjKHh_b"
+  ],
+  "basicDetails": {
+    "firstName": "div ",
+    "lastName": "head",
+    "dateOfBirth": {
+      "$date": "2023-07-03T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "divhead@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64ab87a947e6a6bf907289a1"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64ab87a947e6a6bf907289a2"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64ab87a947e6a6bf907289a3"
+      }
+    },
+    "_id": {
+      "$oid": "64ab87a947e6a6bf907289a4"
+    }
+  },
+  "officialDetails": {
+    "remarks": "",
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "dateOfDivisionJoining": {
+          "$date": "2023-07-08T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64ab87a947e6a6bf907289a6"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "64ab87a947e6a6bf907289a5"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64ab87a947e6a6bf907289a7"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64ab87a947e6a6bf907289a8"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "6492ed802a73a133142bcb0c"
+  },
+  "kind": "worker",
+  "createdAt": {
+    "$date": "2023-07-10T04:23:05.774Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-12T13:53:34.169Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64ab87b347e6a6bf90728a35"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ab891247e6a6bf90728dd7"
+  },
+  "workerCode": "WK00005",
+  "spouse": {
+    "$oid": "64ab891247e6a6bf90728dd8"
+  },
+  "children": [
+    {
+      "$oid": "64ab891247e6a6bf90728dde"
+    }
+  ],
+  "tokens": [],
+  "basicDetails": {
+    "firstName": "Div ",
+    "lastName": "hewad",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "martialStatus": "Married",
+    "knownLanguages": [],
+    "email": "di@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64ab891247e6a6bf90728de1"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64ab891247e6a6bf90728de2"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64ab891247e6a6bf90728de3"
+      }
+    },
+    "_id": {
+      "$oid": "64ab891247e6a6bf90728de4"
+    }
+  },
+  "officialDetails": {
+    "remarks": "",
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "64a6ab61b25851b7ef59e594"
+        },
+        "subDivision": {
+          "$oid": "64a6ab62b25851b7ef59e5be"
+        },
+        "dateOfDivisionJoining": {
+          "$date": "2023-06-30T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64ab891247e6a6bf90728de6"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Left",
+    "noOfChurches": 12,
+    "_id": {
+      "$oid": "64ab891247e6a6bf90728de5"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64ab891247e6a6bf90728de7"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64ab891247e6a6bf90728de8"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "6492ed802a73a133142bcb0c"
+  },
+  "kind": "worker",
+  "createdAt": {
+    "$date": "2023-07-10T04:29:06.879Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T08:56:20.490Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64ab891847e6a6bf90728e45"
+  },
+  "division": {
+    "$oid": "64a6ab61b25851b7ef59e594"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ab8c823e00798bbbef690a"
+  },
+  "workerCode": "WK00006",
+  "spouse": null,
+  "children": [],
+  "tokens": [],
+  "basicDetails": {
+    "firstName": "Div",
+    "lastName": "worker",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "aa@mm.mmm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64ab8c823e00798bbbef690d"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64ab8c823e00798bbbef690e"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64ab8c823e00798bbbef690f"
+      }
+    },
+    "_id": {
+      "$oid": "64ab8c823e00798bbbef6910"
+    }
+  },
+  "officialDetails": {
+    "remarks": "",
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e561"
+        },
+        "dateOfDivisionJoining": {
+          "$date": "2023-07-08T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64ab8c823e00798bbbef6912"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "64ab8c823e00798bbbef6911"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64ab8c823e00798bbbef6913"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64ab8c823e00798bbbef6914"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "64ab87a947e6a6bf9072899e"
+  },
+  "kind": "worker",
+  "createdAt": {
+    "$date": "2023-07-10T04:43:46.199Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T04:44:02.732Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64ab8c923e00798bbbef697f"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ab8d51c48dce94b86e3ab1"
+  },
+  "workerCode": "WK00007",
+  "spouse": null,
+  "children": [],
+  "tokens": [],
+  "basicDetails": {
+    "firstName": "div",
+    "lastName": "s",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "aac@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64ab8d51c48dce94b86e3ab4"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64ab8d51c48dce94b86e3ab5"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64ab8d51c48dce94b86e3ab6"
+      }
+    },
+    "_id": {
+      "$oid": "64ab8d51c48dce94b86e3ab7"
+    }
+  },
+  "officialDetails": {
+    "remarks": "",
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e567"
+        },
+        "dateOfDivisionJoining": {
+          "$date": "2023-06-30T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64ab8d51c48dce94b86e3ab9"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "64ab8d51c48dce94b86e3ab8"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64ab8d51c48dce94b86e3aba"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64ab8d51c48dce94b86e3abb"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "64ab87a947e6a6bf9072899e"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  },
+  "kind": "worker",
+  "createdAt": {
+    "$date": "2023-07-10T04:47:13.936Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T04:47:30.143Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64ab8d62c48dce94b86e3b4e"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ab9b31908d51e8a8743adf"
+  },
+  "workerCode": "WK00008",
+  "spouse": null,
+  "children": [],
+  "tokens": [],
+  "basicDetails": {
+    "firstName": "aas",
+    "lastName": "sdfgh",
+    "dateOfBirth": {
+      "$date": "2023-06-30T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "ree@mm.mm",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64ab9b31908d51e8a8743ae2"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64ab9b31908d51e8a8743ae3"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64ab9b31908d51e8a8743ae4"
+      }
+    },
+    "_id": {
+      "$oid": "64ab9b31908d51e8a8743ae5"
+    }
+  },
+  "officialDetails": {
+    "remarks": "",
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "6475b33f424c132d3287e558"
+        },
+        "subDivision": {
+          "$oid": "6475b33f424c132d3287e55e"
+        },
+        "dateOfDivisionJoining": {
+          "$date": "2023-07-07T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64ab9b31908d51e8a8743ae7"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 12,
+    "_id": {
+      "$oid": "64ab9b31908d51e8a8743ae6"
+    }
+  },
+  "supportDetails": {
+    "designation": "6461db5771f324f9f62d6692",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64ab9b31908d51e8a8743ae8"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64ab9b31908d51e8a8743ae9"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "64ab87a947e6a6bf9072899e"
+  },
+  "division": {
+    "$oid": "6475b33f424c132d3287e558"
+  },
+  "kind": "worker",
+  "createdAt": {
+    "$date": "2023-07-10T05:46:25.781Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T05:46:38.874Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64ab9b3e908d51e8a8743ba4"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ab9bd5908d51e8a8743c18"
+  },
+  "workerCode": "WK00009",
+  "spouse": null,
+  "children": [],
+  "tokens": [],
+  "basicDetails": {
+    "firstName": "rrr",
+    "lastName": "fcf",
+    "dateOfBirth": {
+      "$date": "2023-07-25T18:30:00.000Z"
+    },
+    "knownLanguages": [],
+    "email": "ts@ww.ww",
+    "permanentAddress": {
+      "_id": {
+        "$oid": "64ab9bd5908d51e8a8743c1b"
+      }
+    },
+    "currentOfficialAddress": {
+      "_id": {
+        "$oid": "64ab9bd5908d51e8a8743c1c"
+      }
+    },
+    "residingAddress": {
+      "_id": {
+        "$oid": "64ab9bd5908d51e8a8743c1d"
+      }
+    },
+    "_id": {
+      "$oid": "64ab9bd5908d51e8a8743c1e"
+    }
+  },
+  "officialDetails": {
+    "remarks": "",
+    "divisionHistory": [
+      {
+        "division": {
+          "$oid": "64a6ab61b25851b7ef59e594"
+        },
+        "dateOfDivisionJoining": {
+          "$date": "2023-07-28T18:30:00.000Z"
+        },
+        "_id": {
+          "$oid": "64ab9bd5908d51e8a8743c20"
+        }
+      }
+    ],
+    "selfSupport": true,
+    "status": "Ministering",
+    "noOfChurches": 1,
+    "_id": {
+      "$oid": "64ab9bd5908d51e8a8743c1f"
+    }
+  },
+  "supportDetails": {
+    "designation": "6475b2b4679c91a7b2f93848",
+    "withChurch": true,
+    "_id": {
+      "$oid": "64ab9bd5908d51e8a8743c21"
+    }
+  },
+  "supportStructure": {
+    "basic": 0,
+    "HRA": 0,
+    "spouseAllowance": 0,
+    "positionalAllowance": 0,
+    "specialAllowance": 0,
+    "impactDeduction": 0,
+    "telAllowance": 0,
+    "PIONMissionaryFund": 0,
+    "MUTDeduction": 0,
+    "_id": {
+      "$oid": "64ab9bd5908d51e8a8743c22"
+    }
+  },
+  "status": 100,
+  "createdBy": {
+    "$oid": "64ab87a947e6a6bf9072899e"
+  },
+  "division": {
+    "$oid": "64a6ab61b25851b7ef59e594"
+  },
+  "kind": "worker",
+  "createdAt": {
+    "$date": "2023-07-10T05:49:09.775Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T05:49:25.301Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$neh1tP.NpALozF06LMdWPOeFINIM90sbCl.ByfKHXCOB.2JLwJ/Ye",
+  "permissions": {
+    "$oid": "64ab9be5908d51e8a8743c9f"
+  }
+}]

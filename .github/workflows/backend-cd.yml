@@ -1,0 +1,81 @@
+name: IET - Production CD
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_target:
+        description: "Deployment"
+        required: true
+        type: choice
+        options:
+          - iet-pord
+          - cv-desktop
+
+env:
+  AWS_REGION: ap-south-1
+  ECR_REPOSITORY: iet-backend-server
+  CONTAINER_NAME_1: iet-backend-server
+  CONTAINER_NAME_2: iet-backend-server-2
+  CONTAINER_NAME_3: iet-backend-server-3
+  CONTAINER_NAME_4: iet-backend-server-4
+  ENV_FILE_PATH: ~/iet-prod/.env
+  LOGS_FOLDER: /home/ec2-user/iet-prod/logs:/app/logs
+  FIREBASE_TOKEN: /home/ec2-user/iet-prod/pro910-iet-firebase-adminsdk-fbsvc-617ec747ac.json:/app/pro910-iet-firebase-adminsdk-fbsvc-617ec747ac.json
+  # ADD THIS NEW ENVIRONMENT VARIABLE FOR BACKUPS
+  BACKUPS_FOLDER: /home/ec2-user/iet-prod/backups:/app/backups
+  MONGO_DUMP: /home/ec2-user/iet-prod/mongodump:/app/mongodump
+  EXPOSED_PORTS_1: 8002:8002
+  EXPOSED_PORTS_2: 8006:8006
+
+jobs:
+  run:
+    runs-on: ${{github.event.inputs.deployment_target}}
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::428107822893:role/github-ci-cd
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+        with:
+          mask-password: "false"
+
+      - name: Pull Docker image
+        run: docker pull 428107822893.dkr.ecr.ap-south-1.amazonaws.com/${{env.ECR_REPOSITORY}}:latest
+
+      - name: Delete old docker containers
+        run: |
+          docker rm -f ${{env.CONTAINER_NAME_1}} || true
+          docker rm -f ${{env.CONTAINER_NAME_2}} || true
+          docker rm -f ${{env.CONTAINER_NAME_3}} || true
+          docker rm -f ${{env.CONTAINER_NAME_4}} || true
+
+      - name: Run first docker container (Port 8002)
+        run: |
+          docker run -d -p ${{env.EXPOSED_PORTS_1}} -v ${{env.FIREBASE_TOKEN}} -v ${{env.LOGS_FOLDER}} -v ${{env.BACKUPS_FOLDER}} -v ${{env.MONGO_DUMP}} \
+          --name ${{env.CONTAINER_NAME_1}} --env-file ${{env.ENV_FILE_PATH}} --restart always \
+          428107822893.dkr.ecr.ap-south-1.amazonaws.com/${{env.ECR_REPOSITORY}}:latest
+
+      - name: Run second docker container (Port 8006)
+        run: |
+          docker run -d -p 8006:8006 -e PORT=8006 -v ${{env.FIREBASE_TOKEN}} -v ${{env.LOGS_FOLDER}} -v ${{env.BACKUPS_FOLDER}} -v ${{env.MONGO_DUMP}} \
+          --name ${{env.CONTAINER_NAME_2}} --env-file ${{env.ENV_FILE_PATH}} --restart always \
+          428107822893.dkr.ecr.ap-south-1.amazonaws.com/${{env.ECR_REPOSITORY}}:latest
+      # Repeat for CONTAINER_NAME_3 and CONTAINER_NAME_4 if they also need access to backups
+      - name: Run third docker container (Port 8007)
+        run: |
+          docker run -d -p 8007:8007 -e PORT=8007 -v ${{env.FIREBASE_TOKEN}} -v ${{env.LOGS_FOLDER}} -v ${{env.BACKUPS_FOLDER}} -v ${{env.MONGO_DUMP}} \
+          --name ${{env.CONTAINER_NAME_3}} --env-file ${{env.ENV_FILE_PATH}} --restart always \
+          428107822893.dkr.ecr.ap-south-1.amazonaws.com/${{env.ECR_REPOSITORY}}:latest
+      - name: Run fourth docker container (Port 8008)
+        run: |
+          docker run -d -p 8008:8008 -e PORT=8008 -v ${{env.FIREBASE_TOKEN}} -v ${{env.LOGS_FOLDER}} -v ${{env.BACKUPS_FOLDER}} -v ${{env.MONGO_DUMP}} \
+          --name ${{env.CONTAINER_NAME_4}} --env-file ${{env.ENV_FILE_PATH}} --restart always \
+          428107822893.dkr.ecr.ap-south-1.amazonaws.com/${{env.ECR_REPOSITORY}}:latest

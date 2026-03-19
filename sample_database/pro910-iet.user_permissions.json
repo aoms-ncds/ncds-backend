@@ -1,0 +1,483 @@
+[{
+  "_id": {
+    "$oid": "649ea398a21f0fd145a54dc7"
+  },
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": false,
+  "READ_XYZ": false,
+  "WRITE_XYZ": false,
+  "ACCOUNTS_ACCESS": false,
+  "PRESIDENT_ACCESS": true,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNRG_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-06-30T09:42:48.376Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-30T13:28:35.581Z"
+  },
+  "__v": 0,
+  "READ_ACCESS": true
+},
+{
+  "_id": {
+    "$oid": "649ea333a21f0fd145a54d5e"
+  },
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": true,
+  "READ_XYZ": false,
+  "WRITE_XYZ": false,
+  "ACCOUNTS_ACCESS": true,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNRG_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-06-30T09:41:07.439Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-04T05:53:43.660Z"
+  },
+  "__v": 0,
+  "READ_ACCESS": true,
+  "ACCOUNTS_MNGR_ACCESS": true,
+  "MANAGE_FR": true,
+  "MANAGE_IRO": true
+},
+{
+  "_id": {
+    "$oid": "6492ed802a73a133142bcb19"
+  },
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": true,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": true,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": true,
+  "READ_FR": true,
+  "WRITE_FR": true,
+  "READ_IRO": true,
+  "WRITE_IRO": true,
+  "READ_XYZ": true,
+  "WRITE_XYZ": false,
+  "ACCOUNTS_ACCESS": false,
+  "PRESIDENT_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-06-21T12:30:56.254Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-28T11:30:47.133Z"
+  },
+  "__v": 0,
+  "READ_ACCESS": true
+},
+{
+  "_id": {
+    "$oid": "6492d8f785d6cd5086586d2c"
+  },
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": true,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": true,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": true,
+  "READ_FR": true,
+  "WRITE_FR": true,
+  "READ_IRO": true,
+  "WRITE_IRO": true,
+  "READ_XYZ": false,
+  "WRITE_XYZ": false,
+  "ACCOUNTS_ACCESS": false,
+  "PRESIDENT_ACCESS": true,
+  "createdAt": {
+    "$date": "2023-06-21T11:03:19.297Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-03T07:29:13.401Z"
+  },
+  "__v": 0,
+  "READ_ACCESS": true,
+  "ADMIN_ACCESS": true,
+  "MANAGE_WORKER": true,
+  "MANAGE_FR": true,
+  "MANAGE_IRO": true,
+  "READ_APPLICATION": true,
+  "ACCOUNTS_MNGR_ACCESS": true,
+  "MANAGE_APPLICATION": true,
+  "WRITE_APPLICATION": true,
+  "OFFICE_MNGR_ACCESS": true
+},
+{
+  "_id": {
+    "$oid": "649eac6bcccfecd1c36709e8"
+  },
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": true,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": true,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": true,
+  "READ_FR": false,
+  "WRITE_FR": false,
+  "READ_IRO": false,
+  "WRITE_IRO": false,
+  "READ_XYZ": false,
+  "WRITE_XYZ": false,
+  "ACCOUNTS_ACCESS": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNRG_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-06-30T09:42:48.376Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-30T13:28:59.167Z"
+  },
+  "__v": 0,
+  "READ_ACCESS": true
+},
+{
+  "_id": {
+    "$oid": "64a035fc03d6f717e8814894"
+  },
+  "READ_ACCESS": true,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": true,
+  "MANAGE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": true,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": true,
+  "WRITE_APPLICATION": true,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-01T14:19:40.463Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-01T14:34:10.637Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a272ce3bc92fd5a0d23b66"
+  },
+  "READ_ACCESS": true,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": false,
+  "MANAGE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": false,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": false,
+  "WRITE_APPLICATION": false,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": true,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-03T07:03:42.696Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-03T11:36:47.342Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a2730d3bc92fd5a0d23bc2"
+  },
+  "READ_ACCESS": true,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": false,
+  "MANAGE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": false,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": false,
+  "WRITE_APPLICATION": false,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": true,
+  "createdAt": {
+    "$date": "2023-07-03T07:04:45.321Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-03T11:37:22.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a2b1b4135a62251c142abe"
+  },
+  "READ_ACCESS": true,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": false,
+  "MANAGE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": false,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": false,
+  "WRITE_APPLICATION": false,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": true,
+  "createdAt": {
+    "$date": "2023-07-03T11:32:04.643Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-03T11:32:40.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab87b347e6a6bf90728a35"
+  },
+  "READ_ACCESS": true,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": true,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": true,
+  "MANAGE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": true,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": true,
+  "WRITE_APPLICATION": true,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-10T04:23:15.734Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T04:38:03.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab891847e6a6bf90728e45"
+  },
+  "READ_ACCESS": true,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": true,
+  "WRITE_WORKERS": true,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": true,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": true,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": true,
+  "WRITE_FR": true,
+  "MANAGE_FR": false,
+  "READ_IRO": true,
+  "WRITE_IRO": true,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": true,
+  "WRITE_APPLICATION": true,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-10T04:29:12.103Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T05:53:15.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab8c923e00798bbbef697f"
+  },
+  "READ_ACCESS": false,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": false,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": false,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": false,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": false,
+  "WRITE_FR": false,
+  "MANAGE_FR": false,
+  "READ_IRO": false,
+  "WRITE_IRO": false,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": false,
+  "WRITE_APPLICATION": false,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-10T04:44:02.727Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T04:44:02.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab8d62c48dce94b86e3b4e"
+  },
+  "READ_ACCESS": false,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": false,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": false,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": false,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": false,
+  "WRITE_FR": false,
+  "MANAGE_FR": false,
+  "READ_IRO": false,
+  "WRITE_IRO": false,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": false,
+  "WRITE_APPLICATION": false,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-10T04:47:30.137Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T04:47:30.137Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab9b3e908d51e8a8743ba4"
+  },
+  "READ_ACCESS": false,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": false,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": false,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": false,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": false,
+  "WRITE_FR": false,
+  "MANAGE_FR": false,
+  "READ_IRO": false,
+  "WRITE_IRO": false,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": false,
+  "WRITE_APPLICATION": false,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-10T05:46:38.868Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T05:46:38.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab9be5908d51e8a8743c9f"
+  },
+  "READ_ACCESS": false,
+  "ADMIN_ACCESS": false,
+  "READ_WORKERS": false,
+  "WRITE_WORKERS": false,
+  "MANAGE_WORKER": false,
+  "READ_STAFFS": false,
+  "WRITE_STAFFS": false,
+  "READ_DIVISIONS": false,
+  "WRITE_DIVISIONS": false,
+  "READ_FR": false,
+  "WRITE_FR": false,
+  "MANAGE_FR": false,
+  "READ_IRO": false,
+  "WRITE_IRO": false,
+  "MANAGE_IRO": false,
+  "READ_APPLICATION": false,
+  "WRITE_APPLICATION": false,
+  "MANAGE_APPLICATION": false,
+  "PRESIDENT_ACCESS": false,
+  "OFFICE_MNGR_ACCESS": false,
+  "ACCOUNTS_MNGR_ACCESS": false,
+  "createdAt": {
+    "$date": "2023-07-10T05:49:25.298Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T05:49:25.298Z"
+  },
+  "__v": 0
+}]

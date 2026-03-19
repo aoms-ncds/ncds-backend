@@ -1,0 +1,22 @@
+FROM node:21-alpine3.17
+
+WORKDIR /app
+
+# RUN npm i -g pnpm
+
+# COPY . .
+
+# RUN pnpm i
+
+EXPOSE 8002
+
+# WORKDIR /app/projects/e-commerce/backend
+# RUN pnpm build
+
+# CMD [ "cd", "projects/e-commerce/backend", "&&", "pnpm", "start" ]
+# CMD [ "pnpm", "start"]
+
+COPY dist/* dist/
+
+# CMD [ "node", "dist/bundle.js" ]
+CMD [ "node", "dist/server.js" ]

@@ -1,0 +1,1652 @@
+[{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854e6"
+  },
+  "name": "AO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.809Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854e8"
+  },
+  "name": "ASSAMEES",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.907Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854ea"
+  },
+  "name": "AWADHI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.921Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854ed"
+  },
+  "name": "BAGADI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.926Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854ef"
+  },
+  "name": "BAIGA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.929Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854f1"
+  },
+  "name": "BARELI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.931Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854f3"
+  },
+  "name": "BENGALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.987Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854f5"
+  },
+  "name": "BENJARA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.989Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854f7"
+  },
+  "name": "BHARIYA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.990Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854f9"
+  },
+  "name": "BHATRI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.992Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854fb"
+  },
+  "name": "BHELI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.994Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd82f134d9d0807854fd"
+  },
+  "name": "BHILALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:50.995Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:50.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807854ff"
+  },
+  "name": "BHILI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.013Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785501"
+  },
+  "name": "BHOJPURI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.024Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.024Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785503"
+  },
+  "name": "BHUTANESE",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.037Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785505"
+  },
+  "name": "BIHARI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.038Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.038Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785507"
+  },
+  "name": "BILALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.043Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785509"
+  },
+  "name": "BODO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.044Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078550b"
+  },
+  "name": "BONDA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.045Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078550d"
+  },
+  "name": "BORO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.046Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.046Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078550f"
+  },
+  "name": "BUTTIA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.055Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.055Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785511"
+  },
+  "name": "CHANDAL",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.060Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.060Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785513"
+  },
+  "name": "CHATTISGARI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.083Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785515"
+  },
+  "name": "CHOUDARI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.095Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785517"
+  },
+  "name": "DAMBA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.096Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785519"
+  },
+  "name": "DEDOE",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.103Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.103Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078551b"
+  },
+  "name": "DEHATHI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.129Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078551d"
+  },
+  "name": "DESIA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.142Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078551f"
+  },
+  "name": "DHURBA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.147Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785521"
+  },
+  "name": "DOGRI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.148Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785523"
+  },
+  "name": "DOM",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.150Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785525"
+  },
+  "name": "DONGRI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.151Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785527"
+  },
+  "name": "DZONGKH",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.152Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785529"
+  },
+  "name": "ENGLISH",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.153Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078552b"
+  },
+  "name": "GADHABA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.154Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078552d"
+  },
+  "name": "GANDAYA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.156Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078552f"
+  },
+  "name": "GARO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.156Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785531"
+  },
+  "name": "GATI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.160Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785533"
+  },
+  "name": "GOJRI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.160Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785535"
+  },
+  "name": "GONDI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.163Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785537"
+  },
+  "name": "GREEK",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.165Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785539"
+  },
+  "name": "GUJARATI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.165Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078553b"
+  },
+  "name": "HALBI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.166Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078553d"
+  },
+  "name": "HARIZAN",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.168Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078553f"
+  },
+  "name": "HINDI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.170Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.170Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785541"
+  },
+  "name": "HO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.172Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785543"
+  },
+  "name": "HUVI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.172Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785545"
+  },
+  "name": "JATHAP",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.173Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785547"
+  },
+  "name": "JOHIDA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.178Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785549"
+  },
+  "name": "KANDHA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.179Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078554b"
+  },
+  "name": "KANNADA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.181Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078554d"
+  },
+  "name": "KASHMIRI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.181Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078554f"
+  },
+  "name": "KHATIYA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.182Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785551"
+  },
+  "name": "KODHU",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.185Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.185Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785553"
+  },
+  "name": "KOLAMI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.185Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.185Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785555"
+  },
+  "name": "KONDA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.186Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.186Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785557"
+  },
+  "name": "KONKANI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.187Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785559"
+  },
+  "name": "KORKU",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.187Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078555b"
+  },
+  "name": "KOYA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.188Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078555d"
+  },
+  "name": "KUBI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.188Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078555f"
+  },
+  "name": "KUDUK",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.189Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785561"
+  },
+  "name": "KUFIA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.190Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785563"
+  },
+  "name": "KUI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.191Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785565"
+  },
+  "name": "KUMBRI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.192Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.192Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785567"
+  },
+  "name": "KUTIA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.193Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785569"
+  },
+  "name": "KUVI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.193Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078556b"
+  },
+  "name": "LAMBADI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.194Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078556d"
+  },
+  "name": "LAPCHA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.195Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.195Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078556f"
+  },
+  "name": "LIMBOO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.196Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785571"
+  },
+  "name": "LONGMEI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.197Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785573"
+  },
+  "name": "MAITHALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.198Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785575"
+  },
+  "name": "MALAYALAM",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.199Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.199Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785577"
+  },
+  "name": "MALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.200Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785579"
+  },
+  "name": "MALTO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.201Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078557b"
+  },
+  "name": "MALVI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.204Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078557d"
+  },
+  "name": "MANIPURI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.204Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078557f"
+  },
+  "name": "MARATHI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.205Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785581"
+  },
+  "name": "MARWADI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.205Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785583"
+  },
+  "name": "MASTURI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.206Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785585"
+  },
+  "name": "MATIA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.206Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785587"
+  },
+  "name": "MAUCHI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.207Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785589"
+  },
+  "name": "METALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.208Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078558b"
+  },
+  "name": "MIRGAN",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.210Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.210Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078558d"
+  },
+  "name": "MIZO",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.211Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078558f"
+  },
+  "name": "MUGA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.213Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785591"
+  },
+  "name": "MUNDA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.213Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785593"
+  },
+  "name": "MUNDARI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.214Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785595"
+  },
+  "name": "NEPALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.215Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785597"
+  },
+  "name": "NIMADI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.216Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d080785599"
+  },
+  "name": "NIMARE",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.216Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078559b"
+  },
+  "name": "ODIA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.217Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078559d"
+  },
+  "name": "ORAON",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.218Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d08078559f"
+  },
+  "name": "ORIYA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.219Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855a1"
+  },
+  "name": "PAHARI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.219Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855a3"
+  },
+  "name": "PAIK",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.221Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855a5"
+  },
+  "name": "PANA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.222Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.222Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855a7"
+  },
+  "name": "PARAJA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.223Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.223Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855a9"
+  },
+  "name": "PAURI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.225Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855ab"
+  },
+  "name": "PAWADI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.226Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.226Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855ad"
+  },
+  "name": "PAWARI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.227Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.227Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855af"
+  },
+  "name": "PUNJABI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.228Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.228Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855b1"
+  },
+  "name": "PYDI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.232Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.232Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855b3"
+  },
+  "name": "QUEE",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.233Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.233Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855b5"
+  },
+  "name": "RAJBANSI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.235Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.235Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855b7"
+  },
+  "name": "RATHAVI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.239Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.239Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855b9"
+  },
+  "name": "RELLI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.240Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855bb"
+  },
+  "name": "RESIDEV",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.240Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855bd"
+  },
+  "name": "RONGMEI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.241Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.241Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855bf"
+  },
+  "name": "SADIRY",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.242Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.242Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855c1"
+  },
+  "name": "SANTAL",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.242Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.242Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855c3"
+  },
+  "name": "SANTHALI",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.243Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.243Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855c5"
+  },
+  "name": "SAVARA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.244Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.244Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855c7"
+  },
+  "name": "TAJPURIA",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.245Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855c9"
+  },
+  "name": "TAMIL",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.245Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855cb"
+  },
+  "name": "TELUGU",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.246Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855cd"
+  },
+  "name": "THARU",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.247Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855cf"
+  },
+  "name": "URDU",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.248Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.248Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647dcd83f134d9d0807855d1"
+  },
+  "name": "YERUKALAM",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-05T11:56:51.249Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T11:56:51.249Z"
+  },
+  "__v": 0
+}]

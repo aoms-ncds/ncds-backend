@@ -1,0 +1,69 @@
+[
+  {
+    "_id": {
+      "$oid": "6475b33f424c132d3287e558"
+    },
+    "details": {
+      "name": "IT Division",
+      "divisionId": "DIV00001",
+      "contactNumber": "07592929463",
+      "email": "jishnurajpp2@gmail.com",
+      "address": {
+        "buildingName": "Puliyulla parambath",
+        "street": "Puthukkayam, Vanimal",
+        "city": "Kozhikode",
+        "state": "Kerala",
+        "country": "India",
+        "pincode": "673506",
+        "_id": {
+          "$oid": "6475b33f424c132d3287e55a"
+        }
+      },
+      "noOfWorkers": 5,
+      "noOfSubdivisions": 3,
+      "noOfChurches": 4,
+      "_id": {
+        "$oid": "6475b33f424c132d3287e559"
+      }
+    },
+    "subDivisions": [
+      {
+        "$oid": "6475b33f424c132d3287e55e"
+      },
+      {
+        "$oid": "6475b33f424c132d3287e561"
+      },
+      {
+        "$oid": "6475b33f424c132d3287e564"
+      },
+      {
+        "$oid": "6475b33f424c132d3287e567"
+      },
+      {
+        "$oid": "6475b33f424c132d3287e56a"
+      }
+    ],
+    "FCRABankDetails": {
+      "bankName": "",
+      "branchName": "",
+      "accountNumber": "",
+      "IFSCCode": "",
+      "beneficiary": "",
+      "_id": {
+        "$oid": "6475b33f424c132d3287e55b"
+      }
+    },
+    "localBankDetails": {
+      "bankName": "",
+      "branchName": "",
+      "accountNumber": "",
+      "IFSCCode": "",
+      "beneficiary": "",
+      "_id": {
+        "$oid": "6475b33f424c132d3287e55c"
+      }
+    },
+    "status": 100,
+    "__v": 0
+  }
+]

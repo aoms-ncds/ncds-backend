@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "6461db5771f324f9f62d6692"
+  },
+  "name": "Co-ordinator",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-15T07:12:23.065Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-15T07:12:23.065Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6475b2b4679c91a7b2f93848"
+  },
+  "name": "Native Pastor",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-15T07:12:23.065Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-15T07:12:23.065Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6475b2d3679c91a7b2f93849"
+  },
+  "name": "Evangelist",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-05-15T07:12:23.065Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-15T07:12:23.065Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6493fbf92da7f50bff3fed07"
+  },
+  "name": "Associate Pastor",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:44:57.390Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:44:57.390Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493fcbe2da7f50bff3fed0c"
+  },
+  "name": "Ordained Pastor",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:48:14.056Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:48:14.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493fcc72da7f50bff3fed11"
+  },
+  "name": "Area Supervisor",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:48:23.991Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:48:23.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493fcd32da7f50bff3fed16"
+  },
+  "name": "Sub-Division Supervisor",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:48:35.220Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:48:35.220Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493fcdc2da7f50bff3fed1b"
+  },
+  "name": "Officiating Coordinator",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:48:44.588Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:48:44.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493fce52da7f50bff3fed20"
+  },
+  "name": "Divisional Coordinator",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:48:53.639Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:48:53.639Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493fced2da7f50bff3fed25"
+  },
+  "name": "Staff/Employees",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:49:01.061Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:49:01.061Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493fcf22da7f50bff3fed2a"
+  },
+  "name": "Non-Missionary",
+  "status": 100,
+  "createdAt": {
+    "$date": "2023-06-22T07:49:06.199Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T07:49:06.199Z"
+  },
+  "__v": 0
+}]
