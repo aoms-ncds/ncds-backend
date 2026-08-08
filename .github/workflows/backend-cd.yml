@@ -8,7 +8,7 @@ on:
         required: true
         type: choice
         options:
-          - ncds
+          - ncds-prod
 
 env:
   AWS_REGION: ap-south-1
