@@ -23,7 +23,7 @@ env:
 
 jobs:
   run:
-    runs-on: ${{ github.event.inputs.deployment_target }}
+    runs-on: [self-hosted, Linux, X64] 
     permissions:
       id-token: write
       contents: read
