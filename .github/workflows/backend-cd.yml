@@ -23,7 +23,7 @@ env:
 
 jobs:
   run:
-    runs-on: [self-hosted, Linux, X64] 
+    runs-on: [self-hosted, Linux, ARM64] 
     permissions:
       id-token: write
       contents: read
