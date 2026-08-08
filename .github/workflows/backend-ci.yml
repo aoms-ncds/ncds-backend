@@ -1,4 +1,4 @@
-name: IET Backend - CI
+name: NCDS Backend - CI
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REPOSITORY: iet-backend-server
+  ECR_REPOSITORY: ncds-server
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::428107822893:role/github-ci-cd
+          role-to-assume: arn:aws:iam::640928555103:role/github-ci-cd
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Login to Amazon ECR
