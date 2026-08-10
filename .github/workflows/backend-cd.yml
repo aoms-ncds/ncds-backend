@@ -16,7 +16,7 @@ env:
   CONTAINER_NAME: ncds-server
   ENV_FILE_PATH: ~/ncds-prod/.env
   LOGS_FOLDER: /home/ec2-user/ncds-prod/logs:/app/logs
-  FIREBASE_TOKEN: /home/ec2-user/ncds-prod/pro910-ncds-firebase-adminsdk-fbsvc-617ec747ac.json:/app/pro910-ncds-firebase-adminsdk-fbsvc-617ec747ac.json
+  FIREBASE_TOKEN: /home/ec2-user/ncds-prod/ncds-production-firebase-adminsdk-fbsvc-9eecd9c328.json:/app/ncds-production-firebase-adminsdk-fbsvc-9eecd9c328.json
   BACKUPS_FOLDER: /home/ec2-user/ncds-prod/backups:/app/backups
   MONGO_DUMP: /home/ec2-user/ncds-prod/mongodump:/app/mongodump
   EXPOSED_PORTS: 8003:8003
