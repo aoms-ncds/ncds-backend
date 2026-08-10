@@ -19,7 +19,7 @@ env:
   FIREBASE_TOKEN: /home/ec2-user/ncds-prod/pro910-ncds-firebase-adminsdk-fbsvc-617ec747ac.json:/app/pro910-ncds-firebase-adminsdk-fbsvc-617ec747ac.json
   BACKUPS_FOLDER: /home/ec2-user/ncds-prod/backups:/app/backups
   MONGO_DUMP: /home/ec2-user/ncds-prod/mongodump:/app/mongodump
-  EXPOSED_PORTS: 8002:8002
+  EXPOSED_PORTS: 8003:8003
 
 jobs:
   run:
