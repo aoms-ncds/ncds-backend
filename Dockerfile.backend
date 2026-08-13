@@ -19,4 +19,4 @@ EXPOSE 8002
 COPY dist/* dist/
 
 # CMD [ "node", "dist/bundle.js" ]
-CMD ["npx", "pm2-runtime", "ecosystem.config.js"]
+CMD [ "node", "dist/server.js" ]
