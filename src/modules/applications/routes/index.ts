@@ -11,8 +11,9 @@ import {FilterQuery} from 'mongoose';
 import ApplicationLifeCycleStates from '../extras/ApplicationLifeCycleStates';
 import Mailer from '../../../extras/Mailer';
 import esignature from '../../settings/models/esignature';
-import moment from 'moment';
+import moment, {Moment} from 'moment';
 import Division from '../../divisions/models/Division';
+import TransactionLog from '../../FR/models/transactionLog';
 interface DateRange {
   startDate: Moment;
   endDate: Moment;
@@ -33,8 +34,14 @@ applicationsRouter.get('/count', authCheck(['READ_APPLICATION']), async (req, re
   try {
     const conditions: FilterQuery<IApplication> = {};
     // conditions.status = FRLifeCycleStates.WAITING_FOR_ACCOUNTS;
-    if (Object.keys(req.query).includes('status')) {
-      conditions.status = Number(req.query.status);
+    if (req.query.status) {
+      const raw = req.query.status;
+
+      const statuses = Array.isArray(raw) ?
+        raw.map(Number) :
+        String(raw).split(',').map(Number);
+
+      conditions.status = {$in: statuses};
     }
     // if (res.locals.authUser.kind=='worker') {
     //   conditions.division = res.locals.authUser.division;
@@ -47,12 +54,95 @@ applicationsRouter.get('/count', authCheck(['READ_APPLICATION']), async (req, re
     next(error);
   }
 });
+applicationsRouter.get(
+  '/countWelfare',
+  authCheck(['READ_APPLICATION']),
+  async (req, res, next) => {
+    try {
+      const conditions: FilterQuery<IApplication> = {};
+
+      // ✅ Status filter
+      if (req.query.status) {
+        const raw = req.query.status;
+
+        const statuses = Array.isArray(raw) ?
+          raw.map(Number) :
+          String(raw).split(',').map(Number);
+
+        conditions.status = {$in: statuses};
+      }
+
+      // ✅ Welfare filter (IMPORTANT)
+      conditions.welfare = true; // <-- adjust field name if different
+      conditions.status = ApplicationLifeCycleStates.CREATED; // <-- adjust field name if different
+
+      // OPTIONAL: worker division filter
+      // if (res.locals.authUser.kind === 'worker') {
+      //   conditions.division = res.locals.authUser.division;
+      // }
+
+      const count = await Application.countDocuments(conditions);
+
+      sendStandardResponse<number>(res, 'OK', {
+        data: count,
+        message: 'Welfare count fetched successfully',
+      });
+    } catch (error) {
+      next(error);
+    }
+  },
+);
+applicationsRouter.get(
+  '/countWelfareDiv',
+  authCheck(['READ_APPLICATION']),
+  async (req, res, next) => {
+    try {
+      const conditions: FilterQuery<IApplication> = {};
+
+      // ✅ Status filter
+      if (req.query.status) {
+        const raw = req.query.status;
+
+        const statuses = Array.isArray(raw) ?
+          raw.map(Number) :
+          String(raw).split(',').map(Number);
+
+        conditions.status = {$in: statuses};
+      }
+      conditions.division = res.locals.authUser.division;
+
+      // ✅ Welfare filter (IMPORTANT)
+      conditions.welfare = true; // <-- adjust field name if different
+      conditions.status = ApplicationLifeCycleStates.CREATED; // <-- adjust field name if different
+
+      // OPTIONAL: worker division filter
+      // if (res.locals.authUser.kind === 'worker') {
+      //   conditions.division = res.locals.authUser.division;
+      // }
+
+      const count = await Application.countDocuments(conditions);
+
+      sendStandardResponse<number>(res, 'OK', {
+        data: count,
+        message: 'Welfare count fetched successfully',
+      });
+    } catch (error) {
+      next(error);
+    }
+  },
+);
 applicationsRouter.get('/countBydiv', authCheck(['READ_APPLICATION']), async (req, res, next) => {
   try {
     const conditions: FilterQuery<IApplication> = {};
     // conditions.status = FRLifeCycleStates.WAITING_FOR_ACCOUNTS;
-    if (Object.keys(req.query).includes('status')) {
-      conditions.status = Number(req.query.status);
+    if (req.query.status) {
+      const raw = req.query.status;
+
+      const statuses = Array.isArray(raw) ?
+        raw.map(Number) :
+        String(raw).split(',').map(Number);
+
+      conditions.status = {$in: statuses};
     }
     // if (res.locals.authUser.kind=='worker') {
     conditions.division = res.locals.authUser.division;
@@ -80,8 +170,12 @@ applicationsRouter.get(
           },
         };
       }
-      if (Object.keys(req.query).includes('status')) {
-        conditions.status = Number(req.query.status);
+      if (req.query.status) {
+        const statuses = Array.isArray(req.query.status) ?
+          req.query.status.map((s) => Number(s)) :
+          [Number(req.query.status)];
+
+        conditions.status = {$in: statuses};
       }
       if (Object.keys(req.query).includes('statusFilter')) {
         if (Number(req.query.statusFilter) === 70) {
@@ -112,7 +206,7 @@ applicationsRouter.post(
   authCheck(['WRITE_APPLICATION']),
   async (req, res, next) => {
     try {
-      console.log(req.body, '900');
+      console.log(req.body.form, 'wewewe');
       const divs= await Division.findById(res.locals.authUser.division);
       const eSign= await esignature.find({});
 
@@ -121,6 +215,8 @@ applicationsRouter.post(
         createdBy: res.locals.authUser._id,
         appliedFor: req.body.appliedFor,
         name: req.body.name,
+        welfare: req.body.form != null && Object.keys(req.body.form).length > 0,
+        formData: req.body.form,
         // approvedDate: new Date(),
         coordinatorName: divs?.details.coordinator?.name,
         presidentName: eSign[0].presidentName,
@@ -147,6 +243,7 @@ applicationsRouter.post(
         message: 'Successfully added new Application',
       });
       applicationsEvents.emit('create', {data: application});
+      new TransactionLog({TRNo: application.applicationCode, TRId: application._id, action: 'created', type: 'Application', doneBy: res.locals.authUser._id}).save();
     } catch (error) {
       if (error instanceof MongoError && error.code === 11000) {
         return sendStandardResponse(res, 'CONFLICT', {
@@ -203,7 +300,7 @@ applicationsRouter.post(
       applicationsEvents.emit('active', {
         data: application,
       });
-      console.log(application, 'application');
+      console.log(application, 'application33');
       const prSign= await esignature.find();
       console.log(prSign[0].presidentEmail, 'signn');
 
@@ -212,17 +309,26 @@ applicationsRouter.post(
         from: `AOMS <${process.env.EMAIL}>`,
         subject: `An Application Awaiting President Approval From ${application.division?.details?.name || ''}.`,
         html: `Dear Sir,<br/><br/>
-               Application No. ${application?.applicationCode} from ${application.createdBy?.basicDetails?.firstName || ''} ${application.createdBy?.basicDetails?.middleName || ''} ${application.createdBy?.basicDetails?.lastName || ''}, ${application.division?.details?.name}, is awaiting your approval in the ERP system. Kindly review the application and take the necessary action at your earliest convenience.<br/><br/> 
+               Application No. ${application?.applicationCode} from ${application.createdBy?.basicDetails?.firstName || ''} ${application.createdBy?.basicDetails?.middleName || ''} ${application.createdBy?.basicDetails?.lastName || ''}, ${application.division?.details?.name}, For ${application?.name.toUpperCase()}, is awaiting your approval in the ERP system. Kindly review the application and take the necessary action at your earliest convenience.<br/><br/> 
+               Thank you for your prompt attention to this matter.
+`,
+      });
+      await Mailer.sendMail({
+        to: 'ajayiet@yahoo.co.in',
+        from: `AOMS <${process.env.EMAIL}>`,
+        subject: `An Application Awaiting President Approval From ${application.division?.details?.name || ''}.`,
+        html: `Dear Sir,<br/><br/>
+               Application No. ${application?.applicationCode} from ${application.createdBy?.basicDetails?.firstName || ''} ${application.createdBy?.basicDetails?.middleName || ''} ${application.createdBy?.basicDetails?.lastName || ''}, ${application.division?.details?.name}, For ${application?.name.toUpperCase()}, is awaiting your approval in the ERP system. Kindly review the application and take the necessary action at your earliest convenience.<br/><br/> 
                Thank you for your prompt attention to this matter.
 `,
       });
     } catch (error) {
-      if (error instanceof MongoError && error.code === 11000) {
-        return sendStandardResponse(res, 'CONFLICT', {
-          error: 'Duplicate entry error',
-          message: 'Another Application with the same name already exists!',
-        });
-      }
+      // if (error instanceof MongoError && error.code === 11000) {
+      //   return sendStandardResponse(res, 'CONFLICT', {
+      //     error: 'Duplicate entry error',
+      //     message: 'Another Application with the same name already exists!',
+      //   });
+      // }
 
       next(error);
     }
@@ -278,7 +384,8 @@ applicationsRouter.patch(
           ...req.body, // Spread req.body first
           appliedFor: req.body.appliedFor, // Override appliedFor
           name: req.body.name, // Override name
-        },
+          status: req.body.status == ApplicationLifeCycleStates.REVERT_TO_DIVISION ?
+            CommonLifeCycleStates.CREATED :req.body.status == ApplicationLifeCycleStates.REVERT_TO_HR ? ApplicationLifeCycleStates.SENT_TO_PRESIDENT :req.body.status},
         {new: true}, // Options should be in a separate object
       );
 
@@ -298,6 +405,30 @@ applicationsRouter.patch(
       });
     } catch (error) {
       next(error);
+    }
+  },
+);
+applicationsRouter.patch(
+  '/form/:applicationId',
+  authCheck(['WRITE_APPLICATION']),
+  async (req, res, next) => {
+    try {
+      console.log(req.params.id, 'req.body88');
+
+      const updated = await Application.findByIdAndUpdate(
+        req.params.applicationId,
+        {
+          formData: req.body.form, // 🔥 IMPORTANT
+        },
+        {new: true},
+      );
+      sendStandardResponse(res, 'OK', {
+        data: updated,
+        message: 'Successfully updated Application',
+      });
+      // res.json(updated);
+    } catch (err) {
+      next(err);
     }
   },
 );
@@ -334,7 +465,7 @@ applicationsRouter.patch(
   async (req, res, next) => {
     try {
       console.log(res.locals.authUser.permissions.PRESIDENT_ACCESS, '98');
-      if (!['approve', 'reject', 'active', 'delete'].includes(req.params.operation)) {
+      if (!['approve', 'reject', 'active', 'delete', 'revertToDivision', 'revertToHr', 'sendToPr'].includes(req.params.operation)) {
         next(
           new Error(
             'Only approve/reject operations are allowed by this API endpoint!',
@@ -345,14 +476,21 @@ applicationsRouter.patch(
         req.params.applicationId,
         {
           reasonForDeactivation: req.body.reason,
+          reasonForRevert: req.body.reason,
           status:
             req.params.operation === 'approve' ?
               CommonLifeCycleStates.APPROVED :
               req.params.operation === 'reject' ?
                 CommonLifeCycleStates.REJECTED :
-                req.params.operation === 'active' ?
-                  ApplicationLifeCycleStates.SENT_TO_PRESIDENT :
-                  null,
+                req.params.operation === 'revertToDivision' ?
+                  ApplicationLifeCycleStates.REVERT_TO_DIVISION :
+                  req.params.operation === 'revertToHr' ?
+                    ApplicationLifeCycleStates.REVERT_TO_HR :
+                    req.params.operation === 'active' ?
+                      ApplicationLifeCycleStates.SENT_TO_PRESIDENT :
+                      req.params.operation === 'sendToPr' ?
+                        ApplicationLifeCycleStates.SENT_TO_PRESIDENT :
+                        null,
         },
         {new: true},
       );
@@ -385,6 +523,7 @@ applicationsRouter.patch(
           },
           {new: true},
         );
+        new TransactionLog({TRNo: applications.applicationCode, TRId: applications._id, action: 'President Approved', type: 'Application', doneBy: res.locals.authUser._id}).save();
       }
       console.log(req.params.operation, 'req.params.operation');
       if (req.params.operation === 'approve') {
@@ -393,6 +532,7 @@ applicationsRouter.patch(
           {$set: {approvedDate: new Date()}}, // Adds `approvedDate` if it doesn't exist
           {upsert: false}, // Ensures it only updates existing documents
         );
+        new TransactionLog({TRNo: applications.applicationCode, TRId: applications._id, action: 'Approved', type: 'Application', doneBy: res.locals.authUser._id}).save();
       }
 
 

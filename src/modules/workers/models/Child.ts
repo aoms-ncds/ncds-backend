@@ -38,6 +38,7 @@ export interface IChild extends Document {
   remark?:string
   disabledFrom?:Date
   disabledTo?:Date
+  lastRenewalDate?:Date
 }
 
 const ChildSchema = new Schema<IChild>({
@@ -63,6 +64,7 @@ const ChildSchema = new Schema<IChild>({
   courseName: {type: String, required: false},
   totalAmountforCourse: {type: Number, required: false},
   startingYear: {type: Schema.Types.Date, required: false},
+  lastRenewalDate: {type: Schema.Types.Date, required: false},
   endingYear: {type: Schema.Types.Date, required: false},
   division: {type: Schema.Types.ObjectId, required: false, ref: 'divisions'},
   gender: {

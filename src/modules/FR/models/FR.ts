@@ -8,6 +8,7 @@ export interface IFR extends ITransactions {
   IRO: Types.ObjectId;
   revertedBy: Types.ObjectId;
   raisedBy: string;
+  workerName: Types.ObjectId;
   isReverted?: boolean;
     // Particulars: Types.ObjectId[];
   signature?: {
@@ -41,6 +42,7 @@ const FRSchema = new Schema<IFR>({
   IRO: {type: Schema.Types.ObjectId, required: false, ref: 'IROs'},
   specialsanction: {type: String, required: false},
   purposeCoordinator: {type: Schema.Types.ObjectId, ref: 'users', required: false},
+  workerName: {type: Schema.Types.ObjectId, ref: 'users', required: false},
   revertedBy: {type: Schema.Types.ObjectId, ref: 'users', required: false},
   raisedBy: {type: String, required: false},
   signature: {

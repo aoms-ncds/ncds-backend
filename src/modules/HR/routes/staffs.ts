@@ -142,7 +142,7 @@ staffsRouter.post(
         division: req.body.staff.officialDetails.divisionHistory[0].division,
         officialDetails: {
           ...req.body.staff.officialDetails,
-          eSign: req.body.staff.officialDetails.eSign._id,
+          eSign: req.body.staff.officialDetails.eSign?._id,
         },
       });
       const userExists = await Staff.findOne({

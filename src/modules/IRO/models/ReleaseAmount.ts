@@ -12,6 +12,7 @@ export interface IReleaseAmount {
   closingBalanceRemark?: string;
   transactionNumber: string;
   transferredAmount: number;
+  transferredAmountEach?: Map<string, number>;
   transferredDate: Date;
   transferredBank: IBankDetails;
   IRO?: Types.ObjectId[];
@@ -31,7 +32,10 @@ const releaseAmountSchema=new Schema<IReleaseAmount>({
   closingBalanceRemark: {type: String, required: false},
   transactionNumber: {type: String, required: false},
   transferredAmount: {type: Number, required: true},
-  transferredDate: {type: Date, required: true},
+  transferredAmountEach: {
+    type: Map,
+    of: Number,
+  }, transferredDate: {type: Date, required: true},
   transferredBank: {type: BankDetailsSchema},
   IRO: [{type: Schema.Types.ObjectId, ref: 'IRO'}],
   attachment: [{type: Schema.Types.ObjectId, required: false, ref: 'files'}],

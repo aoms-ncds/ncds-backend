@@ -81,6 +81,7 @@ export interface ISupportDetails {
   selfSupport:boolean;
   totalAmount:number;
   monthlyDeduction:number;
+  churchName?: string;
 
 }
 

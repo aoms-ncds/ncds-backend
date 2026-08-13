@@ -195,6 +195,8 @@ FRRouter.get('/', authCheck(['READ_FR']), async (req, res, next) => {
         .populate('division')
         .populate('purposeCoordinator')
         .populate('purposeWorker')
+        .populate('workerName')
+        .populate('revertedBy')
         .populate({
           path: 'division',
           populate: [
@@ -386,7 +388,8 @@ FRRouter.get('/optimized', authCheck(['READ_FR']), async (req, res, next) => {
         .populate('additionalSignature')
         .populate('division')
         .populate('purposeCoordinator')
-        .populate('purposeWorker'),
+        .populate('purposeWorker')
+        .populate('revertedBy'),
       message: 'Successfully fetched list of FR',
     });
   } catch (error) {
@@ -531,7 +534,8 @@ FRRouter.get('/optimizedForDiv', authCheck(['READ_FR']), async (req, res, next) 
         .populate('additionalSignature')
         .populate('division')
         .populate('purposeCoordinator')
-        .populate('purposeWorker'),
+        .populate('purposeWorker')
+        .populate('revertedBy'),
       message: 'Successfully fetched list of FR',
     });
   } catch (error) {
@@ -1212,6 +1216,7 @@ FRRouter.get('/:FRId', authCheck(['READ_FR']), async (req, res, next) => {
         .populate('purposeCoordinator')
         .populate('purposeWorker')
         .populate('particulars')
+        .populate('workerName')
         .populate({
           path: 'particulars',
           populate: [
@@ -1354,6 +1359,7 @@ FRRouter.get('/optimized/:FRId', authCheck(['READ_FR']), async (req, res, next) 
       .populate('additionalSignature')
       .populate('purposeCoordinator')
       .populate('purposeWorker')
+      .populate('revertedBy')
       .populate({
         path: 'particulars',
         populate: {path: 'attachment', model: 'files'},
@@ -1827,9 +1833,9 @@ FRRouter.patch(
                           FRLifeCycleStates.FR_CLOSED :
                           FRLifeCycleStates.FR_CLOSED,
           ...(req.params.operation === 'sendToAccounts' ? {specialsanction: 'Yes', presidentApproveDate: new Date()} : {}), // Conditionally update specialsanction
-          ...(req.params.operation === 'Approve' ? {frVerifiedOn: new Date(), approvedBy: res.locals.authUser._id} : {}), // Conditionally update specialsanction
+          ...(req.params.operation === 'Approve' ? {frVerifiedOn: new Date(), isReverted: false, approvedBy: res.locals.authUser._id} : {}), // Conditionally update specialsanction
 
-          ...(req.params.operation === 'sendBack' ? {reasonForSentBack: req.body?.reasonForSentBack, isReverted: true} : {}), // Conditionally update specialsanction
+          ...(req.params.operation === 'sendBack' ? {reasonForSentBack: req.body?.reasonForSentBack, isReverted: true, revertedBy: res.locals.authUser._id} : {}), // Conditionally update specialsanction
           ...(req.params.operation === 'reject' ? {reasonForReject: req.body?.reasonForReject} : {}), // Conditionally update specialsanction
         },
         {new: true},

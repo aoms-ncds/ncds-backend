@@ -5,7 +5,7 @@ import {IBasicDetails, IOfficialDetails, ISupportDetails, ISupportStructure, IUs
 
 const BasicDetailsSchema = new Schema<IBasicDetails>({
   firstName: {type: String, required: true},
-  title: {type: String, required: true},
+  title: {type: String, required: false},
   lastName: {type: String, required: true},
   daughterOrganization: {type: String, required: false},
   organization: {type: String, required: false},
@@ -135,6 +135,7 @@ const SupportDetailsSchema = new Schema<ISupportDetails>({
     },
   },
   withChurch: {type: Boolean, required: false},
+  churchName: {type: String, required: false},
   department: {type: String, required: false, ref: 'department'},
   percentageofSelfSupport: {type: Number, required: false},
   selfSupport: {type: Boolean, required: false},

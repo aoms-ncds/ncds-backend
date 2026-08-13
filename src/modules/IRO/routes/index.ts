@@ -96,7 +96,7 @@ IRORouter.get('/countDay', authCheck(['READ_ACCESS']), async (req, res, next) =>
     if (req.query.status) {
       conditions.status = Number(req.query.status);
     }
-   
+
     // overdue logic
     if (req.query.day) {
       const days = Number(req.query.day);
@@ -105,6 +105,19 @@ IRORouter.get('/countDay', authCheck(['READ_ACCESS']), async (req, res, next) =>
       overdueDate.setDate(overdueDate.getDate() - days);
 
       conditions.createdAt = {$lte: overdueDate};
+    }
+    if (Object.keys(req.query).includes('year')) {
+      const year = String(req.query.year); // "2025-26"
+
+      const [startYear, endYear] = year.split('-');
+
+      const startDate = new Date(`${startYear}-04-01T00:00:00.000Z`);
+      const endDate = new Date(`20${endYear}-03-31T23:59:59.999Z`);
+
+      conditions.createdAt = {
+        $gte: startDate,
+        $lte: endDate,
+      };
     }
 
     // worker restriction
@@ -205,6 +218,7 @@ IRORouter.get('/totalAmount', authCheck(['READ_ACCESS']), async (req, res, next)
 IRORouter.get('/appliedCount', authCheck(['READ_ACCESS']), async (req, res, next) => {
   try {
     const conditions: any = {};
+    console.log(res.locals.authUser, 'oioi');
 
     if (Object.keys(req.query).includes('year')) {
       const year = String(req.query.year); // e.g. 2025-26
@@ -217,6 +231,13 @@ IRORouter.get('/appliedCount', authCheck(['READ_ACCESS']), async (req, res, next
         $gte: startDate,
         $lte: endDate,
       };
+    }
+    if (res.locals.authUser.permissions.ADMIN_ACCESS === true) {
+      conditions;
+    } else if (res.locals.authUser.kind === 'worker' ||res.locals.authUser.kind === 'staff') {
+      conditions.division = res.locals.authUser.division;
+    } else {
+      conditions.division = res.locals.authUser.division;
     }
     sendStandardResponse<number |null>(res, 'OK', {
       data: await IRO.countDocuments(conditions),
@@ -344,6 +365,7 @@ IRORouter.get('/groupedIROView', authCheck(['READ_ACCESS']), async (req, res, ne
     // }
     let conditions: FilterQuery<IROrder> = {
       ...(req.query.Exstatus && {sanctionedBank: paymentMethods.map((e) => e.paymentMethod)}),
+      ...(req.query.Exstatus && (req.query.Exstatus as any)?.[0] == 71 && {sanctionedBank: {$nin: paymentMethods.map((e) => e.paymentMethod)}}),
     };
     if (req.query.support) {
       if (req.query.support === 'Expanse') {
@@ -494,6 +516,7 @@ IRORouter.get('/', authCheck(['READ_IRO']), async (req, res, next) => {
       data: await IRO.find(conditions)
         .populate('releaseAmount')
         .populate('particulars')
+        .populate('revertedBy')
         .populate({
           path: 'FR',
           populate: [
@@ -634,6 +657,7 @@ IRORouter.get('/optimized', authCheck(['READ_IRO']), async (req, res, next) => {
       data: req.query.Exstatus && (req.query.Exstatus as any)?.[0] == 70 ? await CustomIRO.find(conditions) : await IRO.find(conditions)
         .populate('releaseAmount')
         .populate('particulars')
+        .populate('revertedBy')
         .populate({
           path: 'FR',
           populate: [
@@ -1245,6 +1269,7 @@ IRORouter.get('/reconciliationOptimized', authCheck(['READ_IRO']), async (req, r
           $lt: moment.utc((req.query?.dateRange as unknown as DateRange)?.endDate).endOf('day').toDate(),
         },
         ...(req.query.ExStatus && {sanctionedBank: paymentMethods.map((e) => e.paymentMethod)}),
+        ...(req.query.ExStatus && (req.query.ExStatus as any)?.[0] == 71 && {sanctionedBank: {$nin: paymentMethods.map((e) => e.paymentMethod)}}),
 
       };
     }
@@ -1355,15 +1380,28 @@ IRORouter.post('/release_amount/', authCheck(['MANAGE_IRO']), async (req, res, n
   try {
     const IROs: any[]=[];
     console.log(req.body.releaseAmount.modeOfPayment.paymentMethod, 'D');
-    console.log(req.body.releaseAmount.transferredAmount, '4545');
+    console.log(req.body.releaseAmount, '4545');
+    const {transferredAmount, releaseAmount: releaseAmountValue} = req.body.releaseAmount;
+
     // return;
     IROs.push(req.body.iros.map((e:IROrder)=>e.IROno));
     if (req.body?.iros?.some((item: { status: any; }) => item.status == IROLifeCycleStates.WAITING_FOR_ACCOUNTS_STATE)) {
+      let transferredAmountEach = req.body.releaseAmount?.transferredAmountEach;
       const releaseAmountId = new mongoose.Types.ObjectId();
+ 
+      // If transferredAmountEach is undefined or null, build it from iros sanctioned amounts
+      if (!transferredAmountEach || Object.keys(transferredAmountEach).length === 0) {
+        transferredAmountEach = {};
+        req.body.iros.forEach((iro: IROrder) => {
+          transferredAmountEach[String(iro._id)] = iro.sanctionedAmountTotal || 0;
+        });
+      }
+
       const releaseAmount = new ReleaseAmount({
         ...req.body.releaseAmount,
-        modeOfPayment: req.body.releaseAmount.modeOfPayment.paymentMethod?? req.body.releaseAmount.modeOfPayment,
-        transferredAmount: req.body.releaseAmount.transferredAmount,
+        modeOfPayment: req.body.releaseAmount.modeOfPayment.paymentMethod ?? req.body.releaseAmount.modeOfPayment,
+        transferredAmount: transferredAmount !== 0 ? transferredAmount : releaseAmountValue,
+        transferredAmountEach: transferredAmountEach,
         _id: releaseAmountId,
         status: IROLifeCycleStates.ACTIVE,
       });
@@ -1417,7 +1455,7 @@ IRORouter.post('/release_amount/', authCheck(['MANAGE_IRO']), async (req, res, n
       const releaseAmount = new ReleaseAmount({
         ...req.body.releaseAmount,
         modeOfPayment: req.body.releaseAmount.modeOfPayment?.paymentMethod ?? req.body.releaseAmount.modeOfPayment,
-        transferredAmount: req.body.releaseAmount.transferredAmount,
+        transferredAmount: transferredAmount !== 0 ? transferredAmount : releaseAmountValue,
 
         _id: releaseAmountId,
         status: IROLifeCycleStates.ACTIVE,
@@ -1442,6 +1480,8 @@ IRORouter.post('/release_amount/', authCheck(['MANAGE_IRO']), async (req, res, n
         new TransactionLog({TRNo: iro?.IROno, TRId: new mongoose.Types.ObjectId(_iro._id), action: 'amount released', type: 'IRO', doneBy: res.locals.authUser._id}).save();
         return iro;
       }));
+      console.log(iros, 'iros888');
+      
       sendStandardResponse(res, 'OK', {
         data: iros,
         message: 'Release Amount Successful for IRO',
@@ -1472,8 +1512,8 @@ IRORouter.post('/release_amount/', authCheck(['MANAGE_IRO']), async (req, res, n
 IRORouter.patch('/release_amount/', authCheck(['MANAGE_IRO']), async (req, res, next) => {
   // try {
   const IROs: any[]=[];
+  console.log(req.body.releaseAmount.transferredAmount, '1111');
   console.log(req.body, '4545');
-  console.log(req.body.releaseAmount, '4545');
 
 
   const iros= await ReleaseAmount.updateOne(
@@ -1483,6 +1523,7 @@ IRORouter.patch('/release_amount/', authCheck(['MANAGE_IRO']), async (req, res, 
         ...req.body.releaseAmount,
         modeOfPayment: req.body.releaseAmount.modeOfPayment?.paymentMethod ?? req.body.releaseAmount.modeOfPayment,
         status: IROLifeCycleStates.ACTIVE,
+        transferredAmount: req.body.releaseAmount.transferredAmount,
       },
     },
   );
@@ -1845,6 +1886,7 @@ IRORouter.get('/optimized/:IROId', authCheck(['READ_IRO']), async (req, res, nex
     sendStandardResponse<IROrder[]>(res, 'OK', {
       data: await IRO.find({_id: req.params?.IROId})
         .populate('releaseAmount')
+        .populate('revertedBy')
         .populate('particulars')
         .populate({
           path: 'FR',
@@ -2505,10 +2547,10 @@ IRORouter.patch(
                           // req.params.operation === 'sendBack' ?
                           //   IROLifeCycleStates.IRO_SEND_BACK :
                             null,
-          ...(req.params.operation === 'accountManagerApprove' ? {iroVerifiedOn: new Date()}: null),
-          ...(req.params.operation === 'rejected' ? {reasonForRejectIRO: req.body.reason}: null),
-          ...(req.params.operation === 'revert' ? {reasonForRevertIRO: req.body.reason}: null),
-          ...(req.params.operation === 'revert_to_division' ? {reasonForRevertToDivision: req.body.reason}: null),
+          ...(req.params.operation === 'accountManagerApprove' ? {iroVerifiedOn: new Date(), approved: true}: null),
+          ...(req.params.operation === 'rejected' ? {reasonForRejectIRO: req.body.reason, revertedBy: res.locals.authUser._id}: null),
+          ...(req.params.operation === 'revert' ? {reasonForRevertIRO: req.body.reason, revertedBy: res.locals.authUser._id}: null),
+          ...(req.params.operation === 'revert_to_division' ? {reasonForRevertToDivision: req.body.reason, revertedBy: res.locals.authUser._id}: null),
           ...(req.params.operation === 'officeManagerApprove' ? {reasonForRevertIRO: ''}: null),
           ...(req.params.operation === 'reconciliation_complete' ? {reconciliationOn: new Date()}: null),
           signature: updatedSignature,

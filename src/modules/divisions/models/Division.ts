@@ -39,6 +39,7 @@ export interface IDivision extends Document {
 
 interface DivisionDetails {
   name: string;
+  adjustedAmount: number;
   divisionId: string;
   contactNumber?: string;
   email?: string;
@@ -111,6 +112,7 @@ export const BankDetailsSchema: Schema<IBankDetails> = new Schema({
 
 const DivisionDetailsSchema: Schema<DivisionDetails> = new Schema({
   name: {type: String, required: true},
+  adjustedAmount: {type: Number, required: false},
   divisionId: {type: String, required: true},
   isIT: {type: Boolean, required: false},
   contactNumber: {type: String, required: false},

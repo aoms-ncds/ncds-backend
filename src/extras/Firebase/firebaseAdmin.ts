@@ -4,7 +4,7 @@ import serviceAccount from '../../../ncds-production-firebase-adminsdk-fbsvc-9ee
 if (!admin.apps.length) {
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
-    projectId: 'pro910-iet',
+    projectId: 'ncds-production',
   });
 }
 

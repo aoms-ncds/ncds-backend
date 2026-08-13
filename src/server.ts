@@ -29,6 +29,9 @@ import {S3Client, PutObjectCommand} from '@aws-sdk/client-s3';
 // import IRO from './modules/IRO/models/IRO';
 import cron from 'node-cron';
 import * as admin from 'firebase-admin';
+import User from './modules/users/models/User';
+import log from './modules/users/models/Log';
+import Spouse from './modules/workers/models/Spouse';
 
 console.log(process.env.URL, 'uuu'.bgBlue);
 
@@ -39,7 +42,32 @@ const PORT = process.env.PORT;
 if (!PORT) {
   throw new Error('PORT not found in environment variables!');
 }
+const a=(async ()=>{
+  let counter = 1;
+  console.log(counter, 'start'.green);
 
+  const users = await User.find();
+  for (const user of users) {
+    // const impactNo = 'WS' + String(counter).padStart(5, '0');
+    const aprilDate = new Date(new Date().getFullYear(), 2, 1); // March 1st (month is 0-indexed)
+    console.log(aprilDate, counter, 'Hacking User Data'.green);
+
+    await User.updateOne(
+      {_id: user._id},
+
+      {$set: {
+        'insurance.dojInsurance': aprilDate,
+        // 'insurance.impactNo': impactNo,
+
+      }},
+    );
+
+    counter++;
+  }
+  console.log(counter, 'All users Data Thookkal successfully!'.green);
+});
+
+// a();
 const app = express();
 app.use(express.urlencoded({extended: true}));
 app.use(express.json({limit: '20mb'}));
@@ -324,5 +352,3 @@ Google.Drive.initialize(Google.Auth.getAuth()); // GoogleMail
 
 
 Mailer.use('Gmail');
-
-

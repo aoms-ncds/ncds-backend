@@ -1,4 +1,4 @@
-import {Router} from 'express';
+import {application, Router} from 'express';
 import authCheck from '../../../extras/auth_check';
 import {sendStandardResponse} from '../../../extras/helpers';
 import UserLifeCycleStates from '../extras/UserLifeCycleStates';
@@ -25,7 +25,7 @@ import AuthLifeCycleStates from '../extras/AuthLifeCycleStates';
 import SMSSender from '../services/sms';
 import OTPBasedSMSVerificationTemplate from '../templates/OtpTemplate';
 import UserUpdateLog, {IUserUpdateLog} from '../models/userUpdateLog';
-import moment from 'moment';
+import moment, {Moment} from 'moment';
 
 const usersRouter = Router();
 interface DateRange {
@@ -121,9 +121,15 @@ usersRouter.post('/login', async (req, res) => {
     SMSSender.sendToNumber({
       to: [result.basicDetails.phone as string],
       message: OTPBasedSMSVerificationTemplate(otp, result.basicDetails ? result.basicDetails.firstName : 'User', 'AOMS', 'the signin process' ),
-      variables: {otp}, 
+      variables: {otp},
     });
 
+    await Mailer.sendMail({
+      to: result.basicDetails.email,
+      from: `AOMS <${process.env.EMAIL}>`,
+      subject: `Login OTP for ${result.basicDetails?.firstName || 'User'}`,
+      html: `Dear ${result.basicDetails?.firstName || 'User'}, Your OTP: ${otp} for AOMS. Use it to complete the signin process. Thanks - IET<br/><br/>`,
+    });
     return sendStandardResponse(res, 'OK', {
       success: true,
       message: 'Successfully Sent OTP',
@@ -143,9 +149,7 @@ usersRouter.post('/login', async (req, res) => {
 });
 
 usersRouter.post('/verify_otp', async (req, res, next) => {
-
   try {
-    
     const authProcess = await AuthProcess.findById(req.body.auth_process_id);
     if (!authProcess) {
       return sendStandardResponse(res, 'UNAUTHORIZED', {
@@ -163,8 +167,8 @@ usersRouter.post('/verify_otp', async (req, res, next) => {
       });
     }
 
-    const isValidOtp = authProcess.OTP === req.body.OTP
-console.log(authProcess.OTP, 'OTP');
+    const isValidOtp = authProcess.OTP === req.body.OTP;
+    console.log(authProcess.OTP, 'OTP');
 
     if (!isValidOtp) {
       return sendStandardResponse(res, 'UNAUTHORIZED', {

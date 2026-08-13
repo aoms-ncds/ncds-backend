@@ -5,6 +5,7 @@ import {ITransactions} from '../../transactions/extras/transaction_types';
 export interface IROrder extends ITransactions {
   _id: Types.ObjectId;
   IROno: string;
+  approved?: boolean;
   FR: Types.ObjectId;
   IRODate: Date;
   purpose: string;
@@ -32,6 +33,7 @@ export interface IROrder extends ITransactions {
   reasonForRevertIRO?:string;
   closedIroPdf?:string;
   reasonForRevertToDivision?:string;
+  revertedBy: Types.ObjectId;
 
   // signature?: {
   //   hrSignature?: {
@@ -51,6 +53,7 @@ const IROSchema = new Schema<IROrder>(
   {
     IROno: {type: String, required: true},
     IRODate: {type: Date, required: true},
+    approved: {type: Boolean, required: false, default: false},
     purpose: {type: String, required: true},
     specialsanction: {type: String, required: false},
     reasonForRejectIRO: {type: String, required: false},
@@ -64,6 +67,8 @@ const IROSchema = new Schema<IROrder>(
     billAttachment: [
       {type: Schema.Types.ObjectId, required: false, ref: 'files'},
     ],
+    revertedBy: {type: Schema.Types.ObjectId, ref: 'users', required: false},
+
     groupIros: [{type: String, required: false}],
     signature: {
       hrSignature: {type: Schema.Types.ObjectId, ref: 'files'},
