@@ -137,7 +137,7 @@ staffsRouter.post(
         ...req.body.staff,
         _id: new mongoose.Types.ObjectId(),
         createdBy: res.locals.authUser._id,
-        staffCode: 'IETWK',
+        staffCode: 'NCDSWK',
         status: StaffLifeCycleStates.ACTIVE,
         division: req.body.staff.officialDetails.divisionHistory[0].division,
         officialDetails: {
@@ -163,7 +163,7 @@ staffsRouter.post(
       }
       await staff.save(); // Part of the validation includes unique email check, which is done on database server. So we need to .save() instead of .validate()
       staff.staffCode =
-        'IETWK' +
+        'NCDSWK' +
         (
           await FormattedCode.findOneAndUpdate(
             {},

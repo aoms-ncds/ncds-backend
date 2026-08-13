@@ -38,7 +38,7 @@ workersRouter.use('/spouse', spouseRouter);
 workersRouter.use('/children', childrenRouter);
 
 /**
- * For getting a count of all Workers
+ * For getting a count of all Assosiates
  * [GET] /workers/count
  * [GET] /workers/count?status=0 - For getting list of all inactive workers
  * [GET] /workers/count?status=1 - For getting list of all active workers
@@ -65,7 +65,7 @@ workersRouter.get('/count', authCheck(['READ_ACCESS']), async (req, res, next) =
     const worker = await Worker.countDocuments(conditions);
     sendStandardResponse<number>(res, 'OK', {
       data: worker,
-      message: 'Successfully fetched list of Workers',
+      message: 'Successfully fetched list of Assosiates',
     });
   } catch (error) {
     next(error);
@@ -1020,7 +1020,7 @@ workersRouter.patch(
         // }
       }
 
-      // If the Worker is getting updated in Sendback Workers Page(REJECTED) then status will be updated to Approval New worker Page(CREATED)
+      // If the Worker is getting updated in Sendback Assosiates Page(REJECTED) then status will be updated to Approval New worker Page(CREATED)
       const Status = _newWorker.status == CommonLifeCycleStates.REJECTED ? CommonLifeCycleStates.CREATED : _newWorker.status;
       const img: { id: string, url: string }[] = [];
       if (imageFile) {

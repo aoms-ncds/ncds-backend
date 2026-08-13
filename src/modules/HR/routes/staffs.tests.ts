@@ -69,7 +69,7 @@ staffsRouter.post('/', authCheck(['READ_ACCESS', 'READ_WORKERS', 'WRITE_WORKERS'
     const staff = new Staff({
       ...req.body,
       _id: new mongoose.Types.ObjectId(),
-      staffCode: 'IETWK' + (await FormattedCode.findOneAndUpdate({}, {$inc: {staffCode: 1}}, {new: true}))?.staffCode.toString().padStart(5, '0'),
+      staffCode: 'NCDSWK' + (await FormattedCode.findOneAndUpdate({}, {$inc: {staffCode: 1}}, {new: true}))?.staffCode.toString().padStart(5, '0'),
       status: StaffLifeCycleStates.ACTIVE,
       spouse: 'Test',
     });

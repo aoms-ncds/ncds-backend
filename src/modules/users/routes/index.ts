@@ -120,15 +120,15 @@ usersRouter.post('/login', async (req, res) => {
 
     SMSSender.sendToNumber({
       to: [result.basicDetails.phone as string],
-      message: OTPBasedSMSVerificationTemplate(otp, result.basicDetails ? result.basicDetails.firstName : 'User', 'AOMS', 'the signin process' ),
+      message: OTPBasedSMSVerificationTemplate(otp, result.basicDetails ? result.basicDetails.firstName : 'User', 'NCDS', 'the signin process' ),
       variables: {otp},
     });
 
     await Mailer.sendMail({
       to: result.basicDetails.email,
-      from: `AOMS <${process.env.EMAIL}>`,
+      from: `NCDS <${process.env.EMAIL}>`,
       subject: `Login OTP for ${result.basicDetails?.firstName || 'User'}`,
-      html: `Dear ${result.basicDetails?.firstName || 'User'}, Your OTP: ${otp} for AOMS. Use it to complete the signin process. Thanks - IET<br/><br/>`,
+      html: `Dear ${result.basicDetails?.firstName || 'User'}, Your OTP: ${otp} for NCDS. Use it to complete the signin process. Thanks - NCDS<br/><br/>`,
     });
     return sendStandardResponse(res, 'OK', {
       success: true,

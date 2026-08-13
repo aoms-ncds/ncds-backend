@@ -225,7 +225,7 @@ async function updateTransactionStatus() {
           },
           'particularsData.mainCategory': 'Maintenance of Priest & Preachers',
           'particularsData.subCategory1': 'Support',
-          'particularsData.subCategory2': 'Workers Support',
+          'particularsData.subCategory2': 'Assosiates Support',
         },
       },
     ]);

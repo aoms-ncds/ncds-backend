@@ -519,7 +519,7 @@ applicationsRouter.patch(
           req.params.applicationId,
           {
             presidentSanction: true,
-            letterNumber: `${new Date()}/IET/${applications.applicationCode}`,
+            letterNumber: `${new Date()}/NCDS/${applications.applicationCode}`,
           },
           {new: true},
         );
