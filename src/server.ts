@@ -300,12 +300,12 @@ startPmaDeduction(); // Start the PMA deduction cron job
 //   // console.log(workers.map((id)=>id._id), 'workers');
 // };
 // x();
-const y=async ()=>{
-  await insertCategoriesFromXlsx('./data.xlsx', {
-    manageConnection: false, // if your app already has mongoose connected
-    wipe: false, // append instead of wiping the collection first
-  });
-};
+// const y=async ()=>{
+//   await insertCategoriesFromXlsx('./data.xlsx', {
+//     manageConnection: false, // if your app already has mongoose connected
+//     wipe: false, // append instead of wiping the collection first
+//   });
+// };
 // y();
 console.log('Trying to conenct to mongodb'.yellow);
 mongoose.connect(process.env.MONGO_DB ?? 'mongodb://127.0.0.1:27017/pro910-iet').then(async () => {
