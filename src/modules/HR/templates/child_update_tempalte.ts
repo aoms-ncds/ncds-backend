@@ -13,10 +13,10 @@ Your child support assistance has been discontinued since you have crossed the a
 <br />
 <br />
 If you have any questions or need assistance, feel free to reach out to our support team at aomssupport@ietmissions.org. <br />
-At Indian Evangelical Team, we are dedicated to empowering individuals like you to make a positive impact through our mission. We believe that together, we can make a difference in the lives of many. <br />
+At Navjeevan Community Development Society, we are dedicated to empowering individuals like you to make a positive impact through our mission. We believe that together, we can make a difference in the lives of many. <br />
 <br />
 <br />
 Best regards, <br />
-The Indian Evangelical Team`,
+The Navjeevan Community Development Society`,
 });
 export default childeupdateTemplate;
